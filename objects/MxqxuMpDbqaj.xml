@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="MxqxuMpDbqaj" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[- Mejorar la gestión de los pedidos y los repartos, facilitando su organización y permitiendo responder de forma más eficiente a situaciones urgentes, cambios en la disponibilidad de los repartidores o incidencias que afecten a las rutas previstas.
+- Reducir el trabajo manual asociado al cierre diario de caja, automatizando, en la medida definida por los requisitos, el cálculo de las ventas y la comprobación de la información económica y del inventario restante.
+- Facilitar el control de los congeladores y arcones cedidos a los clientes, mejorando su identificación y la consulta de la información relacionada con cada equipo.
+- Mejorar la gestión de las incidencias logísticas, proporcionando mecanismos que faciliten su registro y comunicación, especialmente cuando se produzcan averías u otros imprevistos que requieran reorganizar el reparto.
+- Adaptar el sistema a los diferentes perfiles de usuarios, teniendo en cuenta las funciones que desempeña cada uno y las características del entorno en el que utilizará la aplicación.
+- Analizar y documentar los procesos de negocio actuales, identificando las fortalezas, debilidades y necesidades de la empresa como base para la definición de los requisitos.
+- Establecer una especificación de requisitos clara y validable, que sirva como referencia para el posterior diseño, desarrollo y comprobación del sistema.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
