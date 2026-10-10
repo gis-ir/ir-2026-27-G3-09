@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="kgKdHDrmUBzu" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[A continuación se definen los términos propios del negocio y del sector del hielo utilizados a lo largo de este documento, con el fin de unificar el vocabulario entre el equipo técnico y la organización:
+
+* **Arcón congelador:** Equipo de refrigeración horizontal con apertura superior cedido en depósito al cliente para almacenar y conservar el hielo en su propio establecimiento.
+* **Bolsa de hielo:** Unidad mínima de envasado del hielo (habitualmente de 2 kg), destinada al consumo directo o venta al por menor.
+* **Cadena de frío:** Conjunto ininterrumpido de etapas térmicas bajo cero (fabricación, almacenamiento en cámaras, transporte isotermo y depósito en destino) necesarias para garantizar la integridad y calidad del hielo sin que sufra descongelación.
+* **Cubito tradicional:** Formato estándar y de mayor volumen de hielo en bloque individual macizo, empleado habitualmente en hostelería y consumo general.
+* **Cubitera:** Congelador auxiliar o de dimensiones reducidas respecto al arcón estándar, orientado a barras o locales con limitaciones de espacio físico.
+* **Cuenta abierta:** Modalidad de facturación diferida reservada a clientes recurrentes o de gran volumen (discotecas, salas o eventos), en la que los pedidos suministrados a lo largo del mes se liquidan de forma agrupada al cierre del periodo.
+* **Hielo especial (picado / cóctel):** Tipología de hielo con morfología diferenciada (triturado, pilé o esferas de cóctel) que requiere un proceso de envasado y estiba manual más cuidadoso para evitar su compactación.
+* **Palé:** Plataforma normalizada de carga logística sobre la que se apilan los sacos en fábrica. En la operativa estándar de Hielos Mairena, un palé se compone de 5 filas de 7 sacos (un total de 35 sacos).
+* **Picolina:** Denominación coloquial empleada en el sector para referirse a los arcones congeladores industriales de gran capacidad y dimensiones exteriores destacadas, habitualmente ubicados en terrazas, discotecas o zonas de almacén.
+* **Reventa:** Acuerdo comercial mayorista por el que un distribuidor externo adquiere hielo a granel por camiones completos para comercializarlo en su propia área geográfica bajo su estructura o marca (como el socio en Granada).
+* **Ruta de reparto:** Secuencia planificada de paradas y establecimientos asignados a un vehículo y transportista para su abastecimiento periódico en una jornada laboral.
+* **Saco de hielo:** Unidad logística intermedia de distribución compuesta habitualmente por un paquete de 5 bolsas de hielo. Es la unidad estándar de tarificación y carga en los camiones de reparto.
+* **Sede satélite:** Instalación física de almacenamiento frigorífico que no produce hielo, sino que actúa como centro de distribución intermedio recibiendo traslados de mercancía desde la fábrica central para acortar tiempos de entrega en zonas periféricas (caso del almacén de Estepona).]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
