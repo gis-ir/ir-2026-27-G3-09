@@ -4,5 +4,19 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción de procesos de negocio a implantar]]></stringProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="LKcoU8NESncb"/>
+    <child id="CRAH4i5UgqgT"/>
+    <child id="M9vFS4y4F9mY"/>
+    <child id="NQu5CEwbyAVp"/>
+    <child id="rrJD4vuTF9w3"/>
+    <child id="ZoNnSyvrJZcY"/>
+    <child id="iombMtBbUwv3"/>
+    <child id="kn8nPY4JiHmr"/>
+    <child id="DdrsemRb94fR"/>
+    <child id="FNbwDjrC8yL6"/>
+    <child id="TECxRhHdx3C3"/>
+    <child id="783gpq5pKLe4"/>
+    <child id="ZY6JCpRGc3aa"/>
+  </children>
 </object>
