@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="bLF3Nbzet3Sc" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+<object id="2TfUGS3M3njw" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2026-10-09</dateProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Hielos Mairena funciona con un modelo cercano y flexible que resuelve bien la comunicación, el alcance y la respuesta al cliente. Estas son las fortalezas que el nuevo sistema debería conservar.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[_Equipo de Soporte y Mantenimiento (Mecánicos/Técnicos)_
+
+-          Rol: Actor receptor de alertas e incidencias. 
+
+-          Responsabilidades: Abandona la gestión de incidencias por llamadas informales. Ahora, actuarán en base a notificaciones en tiempo real generadas por el sistema, recibiendo la ubicación exacta y el tipo de avería reportada por los repartidores en ruta, lo que les permitirá organizar envíos de grúas o camiones de relevo de forma inmediata y precisa. ]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
