@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7npSKoAX5eQB" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El dominio en el que se enmarca este proyecto corresponde al sector de la fabricación, conservación y distribución de hielo para consumo humano, orientado principalmente a establecimientos de hostelería, comercio de proximidad, locales de ocio y eventos.
+Hielos Mairena centraliza su actividad en sus instalaciones de Mairena del Alcor (Sevilla), desde donde gestiona tanto la venta directa al por menor como la distribución mayorista. Su modelo de negocio abarca desde la producción continua en planta y el envasado en diversos formatos, hasta la entrega periódica a clientes que requieren un suministro constante de producto.
+### Características y particularidades del sector
+El sector del hielo presenta una serie de factores operativos clave que condicionan su funcionamiento diario:
+
+1. **Exigencia continua de la cadena de frío:**
+A diferencia de otros bienes de consumo, el hielo exige una conservación térmica bajo cero sin interrupciones en todas las etapas: almacenamiento en cámaras frigoríficas, transporte en vehículos adaptados y depósito final en el punto de venta del cliente. Una rotura prolongada de esta cadena o retrasos excesivos en su manipulación deterioran de forma irreversible el producto.
+2. **Diversidad de formatos según el tipo de cliente:**
+La demanda no es uniforme y requiere distintas presentaciones de producto. El formato predominante son los cubitos tradicionales en sacos (que agrupan varias bolsas individuales) para bares y pequeños comercios, junto a formatos especializados como hielo picado o para cóctel, que precisan un cuidado específico durante su manipulación y carga.
+3. **Fuerte estacionalidad de la demanda:**
+El consumo de hielo está estrechamente ligado a la época del año y las temperaturas. Durante el otoño y el invierno la demanda se mantiene en niveles base estables, mientras que en los meses de verano, festividades y grandes eventos el volumen de pedidos se incrementa notablemente. Por esta razón, la maquinaria de fábrica opera de forma ininterrumpida (24 horas al día, 7 días a la semana) durante todo el año, permitiendo acumular reservas estratégicas en las naves antes del inicio de la temporada alta.
+4. **Cesión de equipamiento de frío en el punto de venta:**
+Una práctica habitual en este mercado consiste en ceder congeladores en depósito (arcones o «picolinas») a los propios clientes. Esta cesión asegura que el producto se conserve en condiciones óptimas y afianza la relación comercial. Los costes de mantenimiento y amortización de estos equipos no se gestionan mediante una cuota de alquiler fija, sino que se integran en el precio final de cada saco de hielo suministrado.
+5. **Diversidad en las modalidades de reparto:**
+La operativa logística combina repartos diarios en localidades cercanas (como suministros matinales a pescaderías o reposición en hostelería) con rutas de mayor distancia hacia zonas costeras y provincias limítrofes. Asimismo, la empresa realiza envíos de gran volumen a almacenes logísticos propios de apoyo (como el de Estepona) y suministra a distribuidores asociados encargados de la reventa en otras plazas.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
