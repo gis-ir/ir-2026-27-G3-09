@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="ZiUqZ6g72rR4" classes="business-requirement business-objective" acceptedChildren="business-objective" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[OBJN-]]></prefix>
+      <number>004</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Trazabilidad y control del parque de congeladores en depósito]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-11</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[Este objetivo consiste en formalizar y centralizar la gestión del parque de congeladores y arcones frigoríficos cedidos a los clientes, garantizando un control exhaustivo de cada activo físico y de su relación con la empresa. El sistema debe asociar el número de serie de cada equipo a la ficha del cliente correspondiente, registrar las condiciones de cesión, y vincular la tarifa aplicada por saco de hielo a la utilización o no del congelador. De esta manera, se mejora la trazabilidad de los activos, se optimiza el control de costes asociados a su amortización y mantenimiento, y se facilita la gestión técnica del frigorista de la empresa. Además, esta digitalización permite detectar fácilmente el estado de cada equipo, evitar pérdidas o asignaciones incorrectas, y reforzar la rentabilidad y control financiero del servicio de suministro de hielo.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
+    <enumProperty name="priority" category="detail" tooltip="priority" choices="tbd high medium low">tbd</enumProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
