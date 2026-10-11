@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="Hq6z4bWcZGoQ" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Proceso 1]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[ - **Objetivo:** Recibir solicitudes de clientes, preparar la carga, realizar la entrega del hielo en el local, cobrar el pedido y validar las cuentas del día.
+ - **Actores participantes:** Cliente, Repartidor y Personal de Administración.
+ - **Disparador:** Llamada telefónica o mensaje de WhatsApp del cliente al repartidor asignado a su ruta habitual o, si este no está disponible, a la oficina central.
+ - **Flujo del proceso paso a paso:**
+	1. Recepción del pedido: El cliente contacta por teléfono o WhatsApp directamente con el repartidor asignado a su ruta habitual o, si este no se encuentra disponible (por descanso o ausencia), avisa a la oficina central para que un compañero le cubra.
+	2. Carga del camión: El repartidor carga el camión en las naves de almacenamiento (tiempo estimado: 40–60 minutos) utilizando transpaletas y carretillas elevadoras, con una capacidad habitual de 4 palés (unos 140 sacos), o carga a mano para hielo picado y cóctel.
+	3. Registro inicial: Se registra el stock cargado en la aplicación actual (SolucionaTech).
+	4. Ejecución de la ruta habitual: El repartidor realiza su ruta habitual visitando los mismos locales, priorizando clientes críticos (ej. pescaderías a primera hora; bares y discotecas antes de sus horas punta).
+	5. Atención de urgencias (si ocurren): Si entra un pedido urgente o un local se queda sin stock, la reasignación o desvío se gestiona de forma improvisada mediante llamadas manuales entre repartidores.
+	6. Entrega y cobro: El repartidor llega al local, descarga el hielo y cobra al instante, en efectivo o tarjeta, en negocios pequeños, o en grandes empresas se registra para facturación agrupada a final de mes.
+	7. Expedición de recibo: Se imprime un doble ticket a través de la aplicación móvil con una impresora portátil, quedándose el repartidor con una copia y otra el cliente.
+	8. Al finalizar el día, el repartidor realiza la suma manual de tickets y el conteo del efectivo, entregando las cuentas a la oficina para su validación definitiva y registro contable en Excel.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
