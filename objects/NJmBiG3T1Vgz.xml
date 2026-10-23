@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="NJmBiG3T1Vgz" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 4: Registrar diagnóstico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El técnico registra su diagnóstico, indicando si el arcón es reparable en el local o debe sustituirse.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

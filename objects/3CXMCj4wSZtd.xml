@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3CXMCj4wSZtd" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Evaluar reparación in situ]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Equipo de Soporte y Mantenimiento registra si la avería puede repararse in situ o requiere un camión de sustitución.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

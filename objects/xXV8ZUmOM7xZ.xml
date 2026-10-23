@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="xXV8ZUmOM7xZ" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 2: Solicitar tipo de incidencia]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema solicita el tipo de incidencia (avería mecánica o fallo del sistema de frío) y una descripción breve opcional.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
