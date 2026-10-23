@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="jcPEntpMFlYm" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Vincular arcón de sustitución]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema vincula el arcón de sustitución a la ficha del Cliente Externo, manteniendo la tarifa por saco asociada.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

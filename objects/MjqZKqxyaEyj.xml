@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="MjqZKqxyaEyj" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 1: Registrar avería del arcón]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Gestor de Administración y Tráfico registra en el panel web la avería comunicada por el Cliente Externo, indicando el número de serie del arcón.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
