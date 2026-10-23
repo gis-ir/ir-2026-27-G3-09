@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="B6chLFv4m4BH" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 1: Iniciar registro de cesión]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Gestor de Administración y Tráfico accede a la ficha del Cliente Externo en el panel web y selecciona la opción de registrar la cesión de un arcón congelador.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

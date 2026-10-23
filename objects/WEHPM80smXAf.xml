@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="WEHPM80smXAf" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 7: Tramitar retirada y restaurar tarifa]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[En caso de baja, rescisión o inactividad, el Gestor de Administración y Tráfico tramita la retirada del arcón, el sistema restaura la tarifa por saco estándar sin recargo de amortización y genera la orden de recogida para el técnico o repartidor.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

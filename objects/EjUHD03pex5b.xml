@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="EjUHD03pex5b" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Monitorizar consumo de sacos]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema monitoriza de forma continua los pedidos del Cliente Externo y emite alertas automáticas al Gestor de Administración y Tráfico si detecta inactividad prolongada o bajo consumo en el equipo cedido.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
