@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="s4wY28VVPN56" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 2: Calcular balance y cruzar stock]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema calcula el balance totalizando los cobros en metálico, datáfono/tarjeta y albaranes a cuenta abierta, y cruza las ventas con el stock inicial cargado para determinar la mercancía sobrante teórica en el vehículo.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

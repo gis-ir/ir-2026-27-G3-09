@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6Cnx1vV0wIp6" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 4: Generar orden de transporte e instalación]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema genera una orden de trabajo en la ruta del Repartidor asignado para transportar e instalar físicamente el congelador en el establecimiento del cliente.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="2vXqJchbi9oc" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 2: Asignar número de serie del arcón]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Gestor de Administración y Tráfico introduce el identificador o número de serie del congelador disponible en fábrica y el sistema valida su disponibilidad en inventario.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

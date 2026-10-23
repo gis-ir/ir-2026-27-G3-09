@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="yF6kIHzpt3iB" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 1: Solicitar cierre diario de jornada]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Repartidor concluye sus entregas de ruta y selecciona en la aplicación móvil la opción de realizar el arqueo y cierre diario de caja.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
