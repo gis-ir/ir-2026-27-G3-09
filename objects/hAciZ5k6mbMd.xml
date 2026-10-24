@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="hAciZ5k6mbMd" classes="software-requirement system-actor" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[ACT-]]></prefix>
+      <number>001</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Repartidor]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-24</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="inherits-from" category="detail" acceptedTargets="system-actor" traceType=":Proteus-dependency"/>
+    <traceProperty name="participates-in" category="detail" acceptedTargets="use-case" traceType=":Proteus-dependency">
+      <trace target="Qjc6Fn9Ou9uC" traceType=":Proteus-dependency"/>
+      <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano (Operativo / Movilidad).
+
+**Canal de interacción:** Aplicación móvil en smartphone o tablet para vehículos, conectada a los servicios GPS y a una impresora térmica portátil vía Bluetooth.
+
+**Descripción:**
+Conductor y repartidor de ruta de Hielos Mairena. Utiliza la aplicación móvil del sistema durante su jornada para gestionar los suministros de hielo, atender cambios en la ruta y registrar las operaciones comerciales a pie de local con una interfaz sencilla, de botones grandes y pasos guiados.
+
+**Responsabilidades en el sistema:**
+
+- Consultar la hoja de ruta diaria asignada y recibir notificaciones de rebalanceo o paradas de urgencia recalculadas en tiempo real.
+- Confirmar el stock físico cargado en el camión al inicio de la jornada (sacos de cubitos, bolsas de hielo picado y cóctel).
+- Registrar cada entrega realizada en el establecimiento del cliente, anotando cantidades y recogiendo la firma o conformidad.
+- Registrar el cobro directo de cada venta (en efectivo o mediante datáfono) y emitir el ticket correspondiente a través de la impresora térmica Bluetooth del camión.
+- Notificar incidencias mecánicas o caídas del equipo de frío del vehículo enviando automáticamente las coordenadas GPS y el tipo de avería para recibir asistencia inmediata.
+- Ejecutar el arqueo y cierre digital de caja al finalizar el reparto, registrando el conteo final de efectivo y justificando mermas o sacos rotos en caso de descuadre.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="PyCq8HPp8Eq5" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
