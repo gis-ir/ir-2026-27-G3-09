@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="lkCmBWqMUmhG" classes="software-requirement system-actor" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[ACT-]]></prefix>
+      <number>005</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Cliente Externo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-24</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="inherits-from" category="detail" acceptedTargets="system-actor" traceType=":Proteus-dependency"/>
+    <traceProperty name="participates-in" category="detail" acceptedTargets="use-case" traceType=":Proteus-dependency">
+      <trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/>
+      <trace target="d02l8tG0M86F" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano / Externo (Destinatario del servicio).
+
+**Canal de interacción:** Indirecto a través de comprobantes físicos impresos en mano por el repartidor, albaranes o facturas digitales y canales de comunicación habituales (llamada telefónica o mensajería de guardia).
+
+**Descripción:**
+Destinatario final de los productos de hielo. Incluye establecimientos de hostelería (bares, restaurantes, pubs, discotecas), comercios minoristas y de alimentación (pescaderías, supermercados, gasolineras) y organizadores de eventos ocasionales.
+
+**Responsabilidades en el sistema:**
+
+- Solicitar pedidos habituales según el calendario pactado o solicitar pedidos urgentes ante picos imprevistos de consumo.
+- Recibir los pedidos suministrados en su local, cotejar la mercancía entregada y firmar la conformidad física o digital en el terminal del repartidor.
+- Realizar el pago del hielo en el acto (en efectivo o mediante datáfono) o quedar registrado para liquidación agrupada a fin de mes según las condiciones pactadas.
+- Custodiar el arcón congelador cedido en depósito por Hielos Mairena (en caso de disponer de este acuerdo), permitiendo las revisiones de mantenimiento y notificando incidencias de frío o averías.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="sxNtzXdMhmw8" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
