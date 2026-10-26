@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="E5g8KD4XSkMP" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[tipoDeCliente]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Categoría del cliente (particular, comercio u hostelería, gran cuenta o socio de reventa).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

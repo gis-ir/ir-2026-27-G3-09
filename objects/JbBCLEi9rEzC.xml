@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="JbBCLEi9rEzC" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[sacosPorPalé]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Número de sacos de un palé (en la operativa estándar, 35, de 5 filas de 7).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

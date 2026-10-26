@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="32fXPU3bz78h" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[stockSobrante]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Cantidad de producto que queda en el vehículo, la diferencia de lo cargado y lo entregado.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
