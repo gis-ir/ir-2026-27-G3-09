@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="L7EhuLSY9hNd" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[disponibilidad]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Situación del repartidor para recibir pedidos (por ejemplo, de descanso).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

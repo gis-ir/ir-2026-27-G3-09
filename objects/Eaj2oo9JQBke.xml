@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="Eaj2oo9JQBke" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[cantidadesCargadas]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Palés y sacos cargados de cada producto, incluido el hielo picado o de cóctel cargado a mano, básicamente el stock inicial de reparto.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

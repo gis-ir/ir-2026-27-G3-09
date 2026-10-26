@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="s6fwXWW25Q3M" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[repartidorAsignado]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Repartidor que atenderá el pedido; es opcional hasta que se asigna.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
