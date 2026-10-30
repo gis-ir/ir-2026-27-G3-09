@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="rzZB91Ok1bZf" classes="business-requirement business-actor" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[ACTN-]]></prefix>
+      <number>008</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Operario de Fábrica y Almacén]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-23</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <traceProperty name="participates-in" category="detail" acceptedTargets="business-process" traceType=":Proteus-dependency"/>
+    <markdownProperty name="description" category="detail"><![CDATA[-          Rol: Personal operativo de producción de hielo, estiba y gestión física del almacenamiento en cámaras. 
+
+-          Responsabilidades: Equipo de entre 5 y 10 empleados en la sede central de Mairena del Alcor, cuyo número varía según la época del año y los picos de demanda en verano. Se encargan de supervisar la fabricación continua de hielo, empaquetar el producto, almacenar los sacos de reserva en las naves frigoríficas y manejar las carretillas elevadoras y transpaletas para trasladar los palés y cargar los camiones de reparto.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
