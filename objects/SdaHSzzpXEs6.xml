@@ -17,9 +17,8 @@
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- pendiente: fecha de retirada
-- pendiente: si un cliente puede tener varios arcones.
-- OBJN-004, PRON-005, RF-03.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: si un cliente puede tener varios arcones.
+- Trazas: OBJN-004, PRON-005, RF-03; RQG-011, RQG-012, RQG-013.]]></markdownProperty>
   </properties>
   <children>
     <child id="mfxMRGd2RSTM"/>
@@ -27,5 +26,6 @@
     <child id="4dsC9N9ZxnVr"/>
     <child id="w684uaiuxs9T"/>
     <child id="6tERt9MoBuyh"/>
+    <child id="9vasqAHWZ93W"/>
   </children>
 </object>
