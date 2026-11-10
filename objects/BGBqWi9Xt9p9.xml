@@ -2,7 +2,7 @@
 <object id="BGBqWi9Xt9p9" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[stockInicial]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Cantidad de producto cargada al empezar el reparto.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Cantidad de producto cargada al empezar el reparto (derivado de cantidadesCargadas de RQI-007).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

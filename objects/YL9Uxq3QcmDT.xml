@@ -17,13 +17,13 @@
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- pendiente: fechaYHoraDeSolicitud
-- pendiente: estado del pedido
-- pendiente: quién registra el pedido y si la forma de cobro va en el pedido o en la entrega
-- PRON-002, OBJN-002, DEB-003.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: estado del pedido (los valores se definirán en 6.3.3).
+- Pendiente: quién registra el pedido y si la forma de cobro se asocia al pedido o a la entrega.
+- Trazas: PRON-002, OBJN-002, DEB-003; RQG-003, RQG-005, RQG-016.]]></markdownProperty>
   </properties>
   <children>
     <child id="us2Kg4RjUBLj"/>
+    <child id="yJFDgLqZbwn6"/>
     <child id="EAd6iocFQUEH"/>
     <child id="SLoTFvnpLdBg"/>
     <child id="s6fwXWW25Q3M"/>

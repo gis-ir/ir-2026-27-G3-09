@@ -17,12 +17,12 @@
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- **son valores habituales, no constantes,** 5 bolsas por saco, 35 sacos por palé y 2 kg por bolsa son valores habituales
-- El peso por bolsa solo consta en el E1, no en el acta; confirmar con Fran.
-]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: confirmar el peso por bolsa (solo consta en la entrevista E1, no en el acta).
+- Trazas: RQG-001, RQG-002.]]></markdownProperty>
   </properties>
   <children>
     <child id="BK8GdNTUTJ7A"/>
+    <child id="GPruuGSHf87s"/>
     <child id="kTkcErcLuRwU"/>
     <child id="JbBCLEi9rEzC"/>
     <child id="UdzDBYPDoJPs"/>

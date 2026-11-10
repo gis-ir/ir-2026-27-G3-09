@@ -17,9 +17,9 @@
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- pendiente: no sé si la facturación es parte del sistema (supongo q sí)
-- pendiente:  hay relación entre ticket y albarán?
-- PRON-001, ACTN-002,  3.2.2.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: alcance de la facturación dentro del sistema (véase RQI-021).
+- Pendiente: relación entre ticket y albarán.
+- Trazas: PRON-001, ACTN-002, 3.2.2; RQG-006, RQG-017.]]></markdownProperty>
   </properties>
   <children>
     <child id="DoUvwBcVYrZz"/>
