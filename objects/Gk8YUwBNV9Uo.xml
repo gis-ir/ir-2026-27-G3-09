@@ -16,10 +16,16 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- RQI-014 (Información sobre motivos de descuadre) se ha fusionado en este requisito: su dato motivo pasa a ser motivoDelDescuadre.
-- Pendiente: si motivoDelDescuadre es una enumeración o un texto libre que escribe el repartidor.
-- Trazas: PRON-003, OBJN-003, RF-02; RQG-009, RQG-010.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="ENM2LJkZrqV2" traceType=":Proteus-dependency"/>
+      <trace target="8VTeuSKFsotF" traceType=":Proteus-dependency"/>
+      <trace target="9braLyqDhNgG" traceType=":Proteus-dependency"/>
+      <trace target="Qx93ch76BDQU" traceType=":Proteus-dependency"/>
+      <trace target="sTWVBQG47aci" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: estado del cierre
+- Modelo: DigitalCashClosing
+- Trazas: RF-02.]]></markdownProperty>
   </properties>
   <children>
     <child id="wqLVsVJKAcwE"/>
@@ -31,9 +37,6 @@
     <child id="ZhqZHsqVgUnx"/>
     <child id="VNyydaB9SgJV"/>
     <child id="insXNdLAEQkm"/>
-    <child id="97UdCeU9jZjv"/>
-    <child id="mmJLfjFMUYVS"/>
-    <child id="SVbppcZCHjq7"/>
     <child id="GPdMmTKucehP"/>
     <child id="DAPYgRMKE5Dv"/>
   </children>

@@ -16,15 +16,19 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: unidad de tarifa (bolsa, saco o kilo).
-- Pendiente: si la tarifa es global o pactada por cliente.
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="ZiUqZ6g72rR4" traceType=":Proteus-dependency"/>
+      <trace target="YfweBCUBhrEF" traceType=":Proteus-dependency"/>
+      <trace target="HbCNDfTdE25T" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: si la tarifa es global o pactada por cliente.
 - Pendiente: cómo se aplica el descuento por volumen.
-- Trazas: OBJN-004, RF-03; RQG-012; REGN-002 (relación tarifa-arcón como regla de negocio).]]></markdownProperty>
+- Pendiente: dónde se guarda la tarifa sin arcón.
+- La tarifa con arcón está en RQI-012
+- Trazas: RF-03.]]></markdownProperty>
   </properties>
   <children>
     <child id="GYYJX3qWYKoa"/>
-    <child id="3CnnMshEgtXR"/>
     <child id="P2yAJFHXp9rt"/>
   </children>
 </object>

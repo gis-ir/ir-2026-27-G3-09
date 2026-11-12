@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="97UdCeU9jZjv" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[efectivoContado]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Efectivo contado físicamente por el repartidor al cerrar (CU-003, paso 3).]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-</object>

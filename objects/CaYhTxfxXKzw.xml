@@ -16,14 +16,26 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: contacto del empleado (opcional).
-- Pendiente: credenciales y permisos (deben concretarse según 1.2.2 y SUBS-001).
-- Trazas: ACTN-001, ACTN-002, ACTN-004, DEB-003; RQG-004, RQG-005, RQG-009.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="PyCq8HPp8Eq5" traceType=":Proteus-dependency"/>
+      <trace target="hcth8Fqv6733" traceType=":Proteus-dependency"/>
+      <trace target="TkLngkc5ZBfz" traceType=":Proteus-dependency"/>
+      <trace target="hsGenQoMTF3j" traceType=":Proteus-dependency"/>
+      <trace target="stLxjEexRzWr" traceType=":Proteus-dependency"/>
+      <trace target="67xzDoXEHVMj" traceType=":Proteus-dependency"/>
+      <trace target="9braLyqDhNgG" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: permisos de cada perfil (1.2.2, SUBS-001).
+- Modelo: User, DeliveryDriver, MaintenanceTech, AdminManager]]></markdownProperty>
   </properties>
   <children>
     <child id="vkMhk2jKDSvT"/>
     <child id="RBKodwHSB8yi"/>
     <child id="L7EhuLSY9hNd"/>
+    <child id="GSPWTcUHQ6dq"/>
+    <child id="yk4Fe5CCxSJo"/>
+    <child id="gSh8QgPpxSwo"/>
+    <child id="5t2doCxn7Fpz"/>
+    <child id="pGFFs6fQyiSe"/>
   </children>
 </object>

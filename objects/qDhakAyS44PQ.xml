@@ -16,17 +16,26 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: teléfono del cliente (opcional).
-- Pendiente: NIF del cliente (según se decida la facturación).
-- Pendiente: franja o prioridad de atención (puede ser regla de negocio de 6.3.2).
-- Trazas: ACTN-005, FOR-001, FOR-004; RQG-003, RQG-011, RQG-012.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="sxNtzXdMhmw8" traceType=":Proteus-dependency"/>
+      <trace target="J3YA6v59idW5" traceType=":Proteus-dependency"/>
+      <trace target="k7cyjLCKsuoW" traceType=":Proteus-dependency"/>
+      <trace target="cxoFk3PTGTSV" traceType=":Proteus-dependency"/>
+      <trace target="CePMLH6rbtE3" traceType=":Proteus-dependency"/>
+      <trace target="YfweBCUBhrEF" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: NIF 
+- Pendiente: franja o prioridad de atención REGN-017
+- Pendiente: un atributo customer_type para distinguir tipos de cliente en tarifas, descuentos, etc.. REGN-005 y REGN-014 dependen de él.
+- Modelo: Customer]]></markdownProperty>
   </properties>
   <children>
     <child id="MUbfbnHXxbxR"/>
     <child id="E5g8KD4XSkMP"/>
     <child id="EZ3dE578uk2E"/>
-    <child id="37HvFezRPYPc"/>
     <child id="c942xW2T4vJx"/>
+    <child id="5KtcMtTy3EwN"/>
+    <child id="76GYTWZ5fjGY"/>
+    <child id="M39Gi8Usfz9U"/>
   </children>
 </object>

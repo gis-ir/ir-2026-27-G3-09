@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="ShUo9pk3fEYm" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[tipo]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Clase de orden de trabajo (instalación, recogida o sustitución).]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-</object>

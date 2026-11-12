@@ -2,7 +2,7 @@
 <object id="KqCe3PamoLP6" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[albaranesIncluidos]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Albaranes de entrega que agrupa la factura.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Pedidos a cuenta abierta que agrupa la factura.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

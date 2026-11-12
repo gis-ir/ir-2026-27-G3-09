@@ -2,7 +2,7 @@
 <object id="eMGQR7qNHWGq" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[ubicación]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Lugar donde se encuentran las existencias (cámara de Mairena del Alcor, almacén de Estepona o vehículo).]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Lugar de la cámara frigorífica.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

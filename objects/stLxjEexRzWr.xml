@@ -20,7 +20,7 @@
       <trace target="ptoz5CebMGRy" traceType=":Proteus-dependency"/>
       <trace target="hnriTWaEjPfj" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: Route no guarda si la planificación está validada y publicada.]]></markdownProperty>
   </properties>
   <children/>
 </object>

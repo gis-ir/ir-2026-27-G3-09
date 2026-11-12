@@ -2,7 +2,7 @@
 <object id="EAd6iocFQUEH" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[urgencia]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Indica si el pedido es urgente y su prioridad.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Indica si el pedido es urgente.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

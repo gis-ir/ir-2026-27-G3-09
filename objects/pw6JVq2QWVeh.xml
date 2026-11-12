@@ -2,7 +2,7 @@
 <object id="pw6JVq2QWVeh" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[vehículo]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Vehículo asignado a la ruta; pendiente de la multiplicidad final del modelo (un repartidor puede tener varios vehículos).]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Vehículo con el que se hace la ruta (derivado del vehículo que conduce el repartidor que la ejecuta).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
