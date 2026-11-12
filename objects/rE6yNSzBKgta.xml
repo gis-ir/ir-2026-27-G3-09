@@ -2,7 +2,7 @@
 <object id="rE6yNSzBKgta" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[estado]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Situación de la incidencia; los valores quedan pendientes.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Situación de la incidencia: abierta, en revisión o resuelta.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

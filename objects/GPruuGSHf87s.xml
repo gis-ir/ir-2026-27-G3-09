@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<object id="GPruuGSHf87s" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
-  <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[formatoDeEmpaquetado]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Formato en que se presenta el producto (bolsa o saco).]]></markdownProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
-  </properties>
-  <children/>
-</object>

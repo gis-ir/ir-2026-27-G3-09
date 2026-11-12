@@ -16,10 +16,23 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: estado del pedido (los valores se definirán en 6.3.3).
-- Pendiente: quién registra el pedido y si la forma de cobro se asocia al pedido o a la entrega.
-- Trazas: PRON-002, OBJN-002, DEB-003; RQG-003, RQG-005, RQG-016.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="hnriTWaEjPfj" traceType=":Proteus-dependency"/>
+      <trace target="qEGpstYWC2tk" traceType=":Proteus-dependency"/>
+      <trace target="ENM2LJkZrqV2" traceType=":Proteus-dependency"/>
+      <trace target="ptoz5CebMGRy" traceType=":Proteus-dependency"/>
+      <trace target="hsGenQoMTF3j" traceType=":Proteus-dependency"/>
+      <trace target="hcth8Fqv6733" traceType=":Proteus-dependency"/>
+      <trace target="cxoFk3PTGTSV" traceType=":Proteus-dependency"/>
+      <trace target="67xzDoXEHVMj" traceType=":Proteus-dependency"/>
+      <trace target="m5uxTYyfhoML" traceType=":Proteus-dependency"/>
+      <trace target="eMZbirTkCweh" traceType=":Proteus-dependency"/>
+      <trace target="Hk2ev3y2DZrf" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: quién registra el pedido.
+- Pendiente: el modelo no distingue los sacos pedidos de los entregados.
+- El albarán es un pedido con forma de pago cuenta abierta.
+- Modelo: Order, OrderLine]]></markdownProperty>
   </properties>
   <children>
     <child id="us2Kg4RjUBLj"/>
@@ -27,5 +40,7 @@
     <child id="EAd6iocFQUEH"/>
     <child id="SLoTFvnpLdBg"/>
     <child id="s6fwXWW25Q3M"/>
+    <child id="57JXB4B7avvs"/>
+    <child id="yqywQM68ADQU"/>
   </children>
 </object>

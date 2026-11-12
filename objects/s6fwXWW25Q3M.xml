@@ -2,7 +2,7 @@
 <object id="s6fwXWW25Q3M" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[repartidorAsignado]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Repartidor que atenderá el pedido; es opcional hasta que se asigna.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Repartidor que atenderá el pedido (derivado: repartidor que ejecuta la ruta en la que está la parada del pedido).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

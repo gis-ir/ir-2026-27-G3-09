@@ -11,13 +11,16 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[El sistema deberá respetar la siguiente regla de negocio o restricción: los clientes críticos se atienden en su franja prioritaria (pescaderías a primera hora, bares y discotecas antes de sus horas punta). Es una pauta de la operativa, no un horario contractual. Franjas: [valor pendiente].]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El sistema deberá respetar la siguiente regla de negocio o restricción: los clientes críticos se atienden en su franja prioritaria (por ejemplo, pescaderías a primera hora)]]></markdownProperty>
     <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Trazas: acta §4, FOR-004, PRON-001.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="k7cyjLCKsuoW" traceType=":Proteus-dependency"/>
+      <trace target="hnriTWaEjPfj" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

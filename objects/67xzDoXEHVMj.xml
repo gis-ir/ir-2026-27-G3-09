@@ -23,7 +23,8 @@
       <trace target="UA2xhHKJzQR3" traceType=":Proteus-dependency"/>
       <trace target="hsGenQoMTF3j" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: User no tiene disponibilidad.
+- Modelo: la carga de trabajo se deriva de las paradas no entregadas (RouteStop.is_delivered) de la ruta que ejecuta.]]></markdownProperty>
   </properties>
   <children/>
 </object>

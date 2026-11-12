@@ -16,9 +16,13 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">tbd</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">tbd</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: número de factura y datos fiscales.
-- Trazas: ACT-002; RQG-019, RQG-020.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="E7WY3KpwR55i" traceType=":Proteus-dependency"/>
+      <trace target="EAngZn2HjzZ2" traceType=":Proteus-dependency"/>
+      <trace target="HhSWx2f68Hya" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: el modelo no tiene entidad Factura
+- Pendiente: número de factura y datos fiscales.]]></markdownProperty>
   </properties>
   <children>
     <child id="Baa3JesT3bzL"/>
