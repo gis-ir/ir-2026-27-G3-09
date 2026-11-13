@@ -9,5 +9,29 @@
     <child id="0F7jouu4aIle"/>
     <child id="1kiL0W9KDo90"/>
     <child id="d02l8tG0M86F"/>
+    <child id="cu007-authenticate"/>
+    <child id="cu008-login"/>
+    <child id="cu009-logout"/>
+    <child id="cu010-register-order"/>
+    <child id="cu011-plan-routes"/>
+    <child id="cu012-reassign-urgent"/>
+    <child id="cu013-confirm-load"/>
+    <child id="cu014-delivery-payment"/>
+    <child id="cu015-invoice-open-account"/>
+    <child id="cu016-manage-customers"/>
+    <child id="cu017-manage-users"/>
+    <child id="cu018-manage-prices"/>
+    <child id="cu019-manage-vehicles"/>
+    <child id="cu020-assign-vehicle-driver"/>
+    <child id="cu021-start-finish-route"/>
+    <child id="cu022-failed-delivery"/>
+    <child id="cu023-reschedule-delivery"/>
+    <child id="cu024-low-consumption"/>
+    <child id="cu025-register-batch"/>
+    <child id="cu026-transfer-stock"/>
+    <child id="cu027-adjust-inventory"/>
+    <child id="cu028-schedule-maintenance"/>
+    <child id="cu029-freezer-withdrawal"/>
+    <child id="cu030-export-accounting"/>
   </children>
 </object>

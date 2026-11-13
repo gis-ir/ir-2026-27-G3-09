@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu007-authenticate" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>007</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Autenticar usuario (abstracto)]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[**Caso de uso abstracto.** Reúne los pasos comunes de validación de credenciales y creación de una sesión que son reutilizados por los casos de uso que requieren acceso autenticado. No se ejecuta de forma independiente.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[El usuario dispone de credenciales registradas y el servicio de autenticación está disponible.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[La identidad y el perfil del usuario han sido validados, o se ha rechazado el acceso con un mensaje de error.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">critical</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">high</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[Tipo: abstracto. CU-008 Iniciar sesión lo incluye mediante <<include>> para reutilizar la autenticación.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="cu007-step1"/>
+    <child id="cu007-step2"/>
+    <child id="cu007-step3"/>
+    <child id="cu007-step4"/>
+  </children>
+</object>

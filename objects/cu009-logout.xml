@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu009-logout" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>009</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Cerrar sesión]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El usuario finaliza de forma explícita su sesión en la aplicación móvil o en el panel web.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[Existe una sesión autenticada.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[La sesión queda invalidada y la aplicación vuelve a la pantalla de acceso.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">high</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">medium</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[No incluye CU-007: la autenticación es un flujo común de acceso, mientras que el cierre invalida una sesión ya creada.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="cu009-step1"/>
+    <child id="cu009-step2"/>
+    <child id="cu009-step3"/>
+    <child id="cu009-step4"/>
+  </children>
+</object>
