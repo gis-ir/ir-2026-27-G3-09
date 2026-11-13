@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="a6b1f7d3e825" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción de la entrega y el cobro]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[**Entrega y cobro.** La secuencia muestra cómo una parada de ruta se convierte en una entrega registrada:
+
+1. El **DeliveryDriver** abre la parada mediante su identificador `stopId`.
+2. El **System** consulta en **RouteStop** el pedido asociado a la parada.
+3. **RouteStop** solicita a **Order** el detalle de las líneas, el importe total y la forma de pago prevista.
+4. **Order** devuelve esa información al sistema, que la muestra al repartidor.
+5. El repartidor registra las cantidades realmente entregadas. El sistema actualiza **RouteStop** con `setDelivered(true)`.
+6. El sistema solicita al **Customer** la conformidad de la entrega mediante la firma.
+7. El cliente devuelve la confirmación. Este paso está dentro del fragmento `opt`, porque representa la confirmación del receptor cuando procede.
+8. El repartidor registra el cobro indicando el método y el importe. El sistema actualiza `paymentMethod` en **Order**.
+9. El sistema genera los datos del ticket a partir del pedido. El ticket no se modela como entidad persistente; se prepara únicamente para su impresión.
+10. Finalmente, el sistema confirma al repartidor que la entrega ha quedado registrada.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
