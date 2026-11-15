@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="VOu5pT2PhcTX" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Vincular arcón y actualizar tarifa]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El sistema asocia el congelador a la ficha del Cliente Externo, actualiza su estado a "Cedido" y aplica de forma automática la tarifa por saco de hielo correspondiente para amortizar el equipo.]]></markdownProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Validar disponibilidad y condiciones]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema comprueba que el arcón esté disponible y muestra la tarifa aplicable según las condiciones de cesión.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El sistema comprueba que el arcón esté disponible y muestra la tarifa aplicable según las condiciones de cesión.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

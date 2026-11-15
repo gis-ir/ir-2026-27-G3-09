@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu013-confirm-load" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>013</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Confirmar carga y actualizar inventario]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El Repartidor registra la carga preparada para su ruta y el sistema descuenta los sacos de los lotes disponibles y crea el stock inicial del vehículo.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[Existe una ruta asignada y hay stock suficiente en las cámaras frigoríficas.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="detail"><![CDATA[La carga queda confirmada, el inventario actualizado y el vehículo preparado para iniciar la ruta.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">critical</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">high</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[La confirmación modifica stock, carga del vehículo y estado operativo; por eso es un caso de uso y no un listado.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="cu013-step1"/>
+    <child id="cu013-step2"/>
+    <child id="cu013-step3"/>
+    <child id="cu013-step4"/>
+    <child id="cu013-step5"/>
+    <child id="cu013-step6"/>
+  </children>
+</object>

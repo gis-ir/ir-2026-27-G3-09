@@ -21,7 +21,7 @@
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="REWCDP6SbxDM" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[Incluye CU-028 Resolver intervención de mantenimiento para reutilizar el diagnóstico, reparación o sustitución y cierre de la incidencia.]]></markdownProperty>
   </properties>
   <children>
     <child id="JBnkbnBAzmh6"/>

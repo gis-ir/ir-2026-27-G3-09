@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu010-register-order" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>010</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Registrar pedido de cliente]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[El Cliente comunica un pedido al Gestor de Administración, que registra sus líneas, cantidades y prioridad en el sistema.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[El cliente está registrado y el gestor ha iniciado sesión.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="detail"><![CDATA[El pedido queda creado, calculado y pendiente de planificación, con su prioridad registrada.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">critical</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">high</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[No es un listado: contiene interacción entre Cliente, Gestor y sistema, y cambia el estado del pedido.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="cu010-step1"/>
+    <child id="cu010-step2"/>
+    <child id="cu010-step3"/>
+    <child id="cu010-step4"/>
+    <child id="cu010-step5"/>
+    <child id="cu010-step6"/>
+  </children>
+</object>

@@ -15,6 +15,8 @@
     <traceProperty name="participates-in" category="detail" acceptedTargets="use-case" traceType=":Proteus-dependency">
       <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
       <trace target="d02l8tG0M86F" traceType=":Proteus-dependency"/>
+      <trace target="cu028-schedule-maintenance" traceType=":Proteus-dependency"/>
+      <trace target="cu029-freezer-withdrawal" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano (Soporte Técnico y Mantenimiento Especializado).
 
