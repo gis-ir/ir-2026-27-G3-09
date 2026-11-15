@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[ACT-]]></prefix>
-      <number>004</number>
+      <number>003</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Equipo de Soporte (Mecánicos de flota y Técnico Frigorista)]]></stringProperty>
