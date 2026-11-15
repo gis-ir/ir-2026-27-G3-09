@@ -17,6 +17,23 @@
       <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
       <trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/>
       <trace target="d02l8tG0M86F" traceType=":Proteus-dependency"/>
+      <trace target="cu010-register-order" traceType=":Proteus-dependency"/>
+      <trace target="cu011-plan-routes" traceType=":Proteus-dependency"/>
+      <trace target="cu012-reassign-urgent" traceType=":Proteus-dependency"/>
+      <trace target="cu013-confirm-load" traceType=":Proteus-dependency"/>
+      <trace target="cu014-delivery-payment" traceType=":Proteus-dependency"/>
+      <trace target="cu015-invoice-open-account" traceType=":Proteus-dependency"/>
+      <trace target="cu020-assign-vehicle-driver" traceType=":Proteus-dependency"/>
+      <trace target="cu021-start-finish-route" traceType=":Proteus-dependency"/>
+      <trace target="cu022-failed-delivery" traceType=":Proteus-dependency"/>
+      <trace target="cu023-reschedule-delivery" traceType=":Proteus-dependency"/>
+      <trace target="cu024-low-consumption" traceType=":Proteus-dependency"/>
+      <trace target="cu025-register-batch" traceType=":Proteus-dependency"/>
+      <trace target="cu026-transfer-stock" traceType=":Proteus-dependency"/>
+      <trace target="cu027-adjust-inventory" traceType=":Proteus-dependency"/>
+      <trace target="cu028-schedule-maintenance" traceType=":Proteus-dependency"/>
+      <trace target="cu029-freezer-withdrawal" traceType=":Proteus-dependency"/>
+      <trace target="cu030-export-accounting" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** No humano (Sistema Software / Backend).
 
