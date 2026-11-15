@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="FskyHlRzox6o" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[applied_bag_rate]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Float]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Precio por saco con arcón; incluye su amortización.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
