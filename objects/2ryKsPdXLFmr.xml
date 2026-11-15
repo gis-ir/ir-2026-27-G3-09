@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="2ryKsPdXLFmr" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[estimated_delivery_time]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Date]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Hora estimada de llegada.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

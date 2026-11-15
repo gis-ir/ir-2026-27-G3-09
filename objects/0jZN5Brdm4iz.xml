@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="0jZN5Brdm4iz" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[is_validated]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Boolean]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Indica si el gestor ha validado la liquidación.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

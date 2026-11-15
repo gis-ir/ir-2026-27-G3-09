@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="lVfDrC6RHOwn" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[remaining_stock]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[Integer]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Sacos sobrantes al final.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

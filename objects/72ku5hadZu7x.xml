@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="72ku5hadZu7x" classes="role" acceptedChildren=":Proteus-none" acceptedParents="association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[closings]]></stringProperty>
+    <traceProperty name="type" category="general" acceptedTargets="entity-class" maxTargetsNumber="1" traceType=":Proteus-dependency">
+      <trace target="Xrkl5LfmZ9ir" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <stringProperty name="multiplicity-lower-bound" category="general"><![CDATA[0]]></stringProperty>
+    <stringProperty name="multiplicity-upper-bound" category="general"><![CDATA[*]]></stringProperty>
+    <booleanProperty name="ordered" category="general">false</booleanProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
