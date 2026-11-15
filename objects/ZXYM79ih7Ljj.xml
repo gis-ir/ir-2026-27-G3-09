@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="ZXYM79ih7Ljj" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Consulta de camiones]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Sistema consulta la geolocalización GPS de los vehículos de los Repartidores y la cantidad de mercancía sobrante disponible en cada camión.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
