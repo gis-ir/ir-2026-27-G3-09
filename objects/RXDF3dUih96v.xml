@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="RXDF3dUih96v" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Carga de mercancía]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Repartidor se dirige a las cámaras del almacén y realiza la carga física de los palés y sacos previstos en el vehículo y confirma la cantidad cargada.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

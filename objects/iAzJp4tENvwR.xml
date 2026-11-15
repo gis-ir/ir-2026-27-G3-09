@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="iAzJp4tENvwR" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Modificación de ruta]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Repartidor consulta la notificación, modifica su trayecto habitual y se dirige al establecimiento del Cliente Externo.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

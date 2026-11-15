@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6992oBiSJtik" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 7: Entrega y cobro]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Repartidor realiza la entrega de los sacos solicitados, registra digitalmente el cobro correspondiente y confirma la finalización de la entrega mediante la aplicación móvil.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
