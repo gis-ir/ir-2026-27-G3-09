@@ -24,7 +24,7 @@
     <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: si la tarifa es global o pactada por cliente.
 - Pendiente: cómo se aplica el descuento por volumen.
 - Pendiente: dónde se guarda la tarifa sin arcón.
-- La tarifa con arcón está en RQI-012
+- La tarifa con arcón está en RQI-009
 - Trazas: RF-03.]]></markdownProperty>
   </properties>
   <children>

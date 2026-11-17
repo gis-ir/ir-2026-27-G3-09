@@ -16,7 +16,7 @@
 6. En caso de rechazo justificado por tráfico o avería (fragmento `alt`), el sistema reasigna el servicio al siguiente conductor disponible.
 7. Si ningún camión dispone de stock o cobertura temporal (rama alternativa), el sistema alerta al gestor para enviar un vehículo de refuerzo desde la central (`dispatchBackupVehicle`).
 8. El repartidor se desvía, acude al establecimiento del cliente y entrega los sacos solicitados.
-9. El repartidor registra la entrega y el cobro en el sistema aplicando la tarifa base ordinaria sin recargo por urgencia (**REGN-003**).
+9. El repartidor registra la entrega y el cobro en el sistema aplicando la tarifa base ordinaria sin recargo por urgencia (**REGN-002**).
 10. El sistema notifica al **AdminManager** el cierre de la entrega urgente y restaura en el terminal del repartidor la navegación hacia sus paradas habituales.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
