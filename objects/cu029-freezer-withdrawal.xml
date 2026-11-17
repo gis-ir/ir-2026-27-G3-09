@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu029-freezer-withdrawal" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>029</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Gestionar retirada de arcón congelador]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <markdownProperty name="description" category="detail"><![CDATA[El Gestor tramita la retirada de un arcón congelador cedido, actualiza el contrato y coordina la recogida física del equipo.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[El cliente y el arcón están registrados y existe un contrato de cesión activo.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[El arcón ha sido retirado o queda pendiente de recogida, el contrato se ha cerrado y la tarifa del cliente se ha restaurado.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">high</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">medium</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"><trace target="WEHPM80smXAf" traceType=":Proteus-dependency"/><trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/></traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[Especializa la retirada incluida en CU-005. Si el motivo es una avería no reparable, puede extender CU-006.]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="cu029-step1"/>
+    <child id="cu029-step2"/>
+    <child id="cu029-step3"/>
+    <child id="cu029-step4"/>
+    <child id="cu029-step5"/>
+    <child id="cu029-step6"/>
+    <child id="cu029-step7"/>
+    <child id="cu029-step8"/>
+    <child id="cu029-step9"/>
+  </children>
+</object>

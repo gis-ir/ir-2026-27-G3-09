@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="gbEWssDnuzHE" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 8: Cierre de orden]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Sistema registra el cierre de la orden e informa al Gestor de Administración y Tráfico mediante el panel web.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

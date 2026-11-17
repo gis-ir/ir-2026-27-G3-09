@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="dAcGtu2PCuy5" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 5: Notificación a Repartidor]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Sistema asigna la nueva parada,  recalcula la ruta del Repartidor seleccionado y envía una notificación a la aplicación móvil de ese Repartidor con la nueva ruta y los detalles del pedido urgente.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

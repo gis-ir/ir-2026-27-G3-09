@@ -2,7 +2,7 @@
 <object id="MakWHT3VAKi2" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[ubicaciónActual]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Última posición conocida del vehículo.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Coordenadas GPS de la última posición conocida del vehículo.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

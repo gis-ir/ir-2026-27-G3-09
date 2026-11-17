@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu027-adjust-inventory" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any"><properties>
+<codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[CU-]]></prefix><number>027</number><suffix><![CDATA[]]></suffix></codeProperty><stringProperty name=":Proteus-name" category="general"><![CDATA[Realizar ajuste de inventario]]></stringProperty><dateProperty name=":Proteus-date" category="general">2026-11-13</dateProperty><stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+<markdownProperty name="description" category="detail"><![CDATA[El Gestor registra un recuento físico y, tras justificar las diferencias detectadas, confirma el ajuste del inventario.]]></markdownProperty><markdownProperty name="precondition" category="pre-post"><![CDATA[El usuario tiene permiso para ajustar inventario.]]></markdownProperty><markdownProperty name="postcondition" category="pre-post"><![CDATA[El stock queda actualizado con el motivo y responsable del ajuste.]]></markdownProperty><markdownProperty name="comments" category="comments"><![CDATA[Modificar existencias es una interacción fuerte; un listado de stock seguiría siendo requisito simple.]]></markdownProperty>
+</properties><children>
+<child id="cu027-step1"/><child id="cu027-step2"/><child id="cu027-step3"/><child id="cu027-step4"/><child id="cu027-step5"/><child id="cu027-step6"/>
+</children></object>

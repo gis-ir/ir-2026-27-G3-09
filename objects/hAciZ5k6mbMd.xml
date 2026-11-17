@@ -15,6 +15,16 @@
     <traceProperty name="participates-in" category="detail" acceptedTargets="use-case" traceType=":Proteus-dependency">
       <trace target="Qjc6Fn9Ou9uC" traceType=":Proteus-dependency"/>
       <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
+      <trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/>
+      <trace target="cu011-plan-routes" traceType=":Proteus-dependency"/>
+      <trace target="cu012-reassign-urgent" traceType=":Proteus-dependency"/>
+      <trace target="cu013-confirm-load" traceType=":Proteus-dependency"/>
+      <trace target="cu014-delivery-payment" traceType=":Proteus-dependency"/>
+      <trace target="cu021-start-finish-route" traceType=":Proteus-dependency"/>
+      <trace target="cu022-failed-delivery" traceType=":Proteus-dependency"/>
+      <trace target="cu023-reschedule-delivery" traceType=":Proteus-dependency"/>
+      <trace target="cu026-transfer-stock" traceType=":Proteus-dependency"/>
+      <trace target="cu029-freezer-withdrawal" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano (Operativo / Movilidad).
 

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="j59n9fs3wf4f" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 5: Reparto]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Repartidor inicia el recorrido y sigue el orden de paradas establecido en la planificación de rutas.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
