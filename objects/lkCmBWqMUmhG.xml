@@ -17,16 +17,18 @@
       <trace target="BAEH4aabuxeF" traceType=":Proteus-dependency"/>
       <trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/>
       <trace target="d02l8tG0M86F" traceType=":Proteus-dependency"/>
+      <trace target="cu007-web-order" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano / Externo (Destinatario del servicio).
 
-**Canal de interacción:** Indirecto a través de comprobantes físicos impresos en mano por el repartidor, albaranes o facturas digitales y canales de comunicación habituales (llamada telefónica o mensajería de guardia).
+**Canal de interacción:** Directo mediante credenciales personales en el Portal Web de Clientes e indirecto en el establecimiento mediante comprobantes físicos o firma digital en el terminal del repartidor.
 
 **Descripción:**
 Destinatario final de los productos de hielo. Incluye establecimientos de hostelería (bares, restaurantes, pubs, discotecas), comercios minoristas y de alimentación (pescaderías, supermercados, gasolineras) y organizadores de eventos ocasionales.
 
 **Responsabilidades en el sistema:**
 
+- Acceder al portal web de clientes para tramitar pedidos telemáticos de hielo, consultar tarifas personalizadas y revisar el estado de sus pedidos.
 - Solicitar pedidos habituales según el calendario pactado o solicitar pedidos urgentes ante picos imprevistos de consumo.
 - Recibir los pedidos suministrados en su local, cotejar la mercancía entregada y firmar la conformidad física o digital en el terminal del repartidor.
 - Realizar el pago del hielo en el acto (en efectivo o mediante datáfono) o quedar registrado para liquidación agrupada a fin de mes según las condiciones pactadas.
