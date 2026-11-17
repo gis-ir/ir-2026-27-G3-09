@@ -6,7 +6,7 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[Centraliza el almacenamiento seguro de toda la información operativa y de negocio de Hielos Mairena, garantizando la consistencia y trazabilidad entre las operaciones de campo y la oficina. Almacena las entidades clave identificadas en el ERS: clientes, empleados, tipos de hielo, lotes de producción, cámaras frigoríficas, vehículos, rutas, pedidos, contratos de cesión de arcones, cierres de caja, arcones, tarifas, usos de vehículos, facturas e incidencias.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[Centraliza el almacenamiento seguro de toda la información operativa y de negocio de Hielos Mairena, garantizando la consistencia y trazabilidad entre las operaciones de campo y la oficina. Almacena las entidades clave identificadas en el ERS: clientes y empleados, ambas con sus credenciales, tipos de hielo, lotes de producción, cámaras frigoríficas, vehículos, rutas, pedidos, contratos de cesión de arcones, cierres de caja, arcones, tarifas, usos de vehículos, facturas e incidencias.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
