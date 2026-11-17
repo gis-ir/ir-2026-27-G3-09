@@ -1,0 +1,78 @@
+@startuml
+!theme plain
+skinparam backgroundColor #F7F9FC
+skinparam shadowing true
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 13
+skinparam ArrowColor #495057
+skinparam ArrowFontColor #343A40
+skinparam nodesep 25
+skinparam ranksep 25
+skinparam padding 5
+
+
+skinparam actor {
+  BackgroundColor #FFE3E3
+  BorderColor #C92A2A
+  BorderThickness 1.5
+}
+skinparam usecase {
+  BackgroundColor #E7F5FF
+  BorderColor #1971C2
+  BorderThickness 1.5
+  RoundCorner 18
+}
+skinparam note {
+  BackgroundColor #FFF9DB
+  BorderColor #E67700
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #868E96
+  BorderThickness 1.2
+  RoundCorner 8
+}
+
+left to right direction
+
+actor "\nCliente" as CLI
+actor "\nRepartidor\n(el mejor de N)" as REP
+actor "\nGestor de Admin.\ny Tráfico" as GAT
+actor "\nServicio GPS" as GPS #D3F9D8
+
+rectangle "Sistema de Gestión de Rutas y Entregas" {
+
+  usecase "① Solicitar pedido\nurgente / última hora" as UC_SOLI
+  usecase "② Atender pedido urgente\ncon rebalanceo dinámico\n[CU principal]" as UC_MAIN
+  usecase "③ Consultar posición GPS\ny stock sobrante" as UC_ESTADO
+  usecase "④ \nRebalanceo dinámico\nde rutas" as UC_PRON
+  usecase "⚠ Rechazar pedido\npor inviabilidad" as UC_RECH
+  usecase " Notificar al Cliente\nla no viabilidad" as UC_NOT
+}
+
+' --- Asociaciones actor ↔ CU (con lo que ocurre en cada interacción) ---
+CLI --> UC_SOLI
+REP --> UC_MAIN : ④⑤ selecciona al mejor\nposicionado y notifica\n⑥⑦ entrega, cobra y confirma
+GPS --> UC_ESTADO
+
+' --- Gestor: bajado para reducir ancho total del diagrama ---
+UC_MAIN -down-> GAT : ⑧ cierra la orden\ne informa (panel web)
+
+' --- Includes: subflujos obligatorios / reutilizables ---
+UC_SOLI ..> UC_MAIN   : <<include>>\n(dispara el CU)
+UC_MAIN ..> UC_ESTADO : <<include>>\n(paso 3)
+UC_MAIN ..> UC_PRON   : <<include>>\n(paso 4)
+
+' --- Extends: escenarios alternativos ---
+UC_RECH ..> UC_MAIN : <<extend>>\n(paso 4: no viable)
+UC_NOT  ..> UC_RECH : <<include>>
+
+legend right
+  |<#FFE3E3>| Actor |
+  |<#E7F5FF>| Caso de uso |
+  |<#D3F9D8>| Sistema externo |
+  | <<include>> | Subflujo obligatorio / reutilizable |
+  | <<extend>>  | Escenario alternativo |
+endlegend
+
+@enduml
