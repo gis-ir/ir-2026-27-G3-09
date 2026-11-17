@@ -13,7 +13,7 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <booleanProperty name="is-abstract" category="detail" tooltip="is-abstract">false</booleanProperty>
     <traceProperty name="superclass" category="detail" acceptedTargets="entity-class" maxTargetsNumber="1" traceType=":Proteus-dependency"/>
-    <markdownProperty name="description" category="detail"><![CDATA[Esta clase entidad representa a un empleado de la empresa que accede al sistema; el personal de oficina se representa directamente como User.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Esta clase entidad representa a una persona que accede al sistema (empleados y clientes); el personal de oficina se representa directamente como User.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement model-element" traceType=":Proteus-dependency">
       <trace target="CaYhTxfxXKzw" traceType=":Proteus-dependency"/>
     </traceProperty>
