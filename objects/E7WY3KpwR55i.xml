@@ -19,6 +19,7 @@
       <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
       <trace target="1kiL0W9KDo90" traceType=":Proteus-dependency"/>
       <trace target="d02l8tG0M86F" traceType=":Proteus-dependency"/>
+      <trace target="cu007-web-order" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="description" category="detail"><![CDATA[**Tipo de actor:** Humano (Administración y Tráfico).
 

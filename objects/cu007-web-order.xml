@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cu007-web-order" classes="software-requirement use-case" acceptedChildren="use-case-step" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true">
+      <prefix><![CDATA[CU-]]></prefix>
+      <number>007</number>
+      <suffix><![CDATA[]]></suffix>
+    </codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Realizar pedido telemático a través del portal de clientes]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-17</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[El sistema se comportará como se describe en el siguiente caso de uso cuando un Cliente Externo accede al portal web de clientes para tramitar un pedido de hielo en régimen de autoservicio. El sistema aplica su tarifa según contrato de arcón, valida la viabilidad del servicio, registra el pedido y lo incorpora automáticamente al circuito de planificación y reparto.]]></markdownProperty>
+    <markdownProperty name="precondition" category="pre-post"><![CDATA[El Cliente Externo dispone de una cuenta activa con credenciales de acceso válidas en el portal y el sistema cuenta con existencias disponibles en almacén o previsión de fabricación.]]></markdownProperty>
+    <markdownProperty name="postcondition" category="pre-post"><![CDATA[El pedido queda registrado en firme en el sistema, el cliente obtiene el comprobante digital con número de seguimiento y el pedido queda disponible para su inclusión en la planificación de rutas por el Gestor de Administración.]]></markdownProperty>
+    <enumProperty name="importance" category="priority" tooltip="importance" choices="tbd critical high medium low optional">high</enumProperty>
+    <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">medium</enumProperty>
+    <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">validated</enumProperty>
+    <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">high</enumProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="eMZbirTkCweh" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
