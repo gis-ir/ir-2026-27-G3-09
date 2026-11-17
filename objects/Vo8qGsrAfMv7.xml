@@ -24,7 +24,7 @@
       <trace target="Qh9W7vt5UuuP" traceType=":Proteus-dependency"/>
       <trace target="3bSRmvoYaqBK" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: el modelo no tiene entidad Factura;]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

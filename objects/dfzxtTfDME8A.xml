@@ -23,9 +23,7 @@
       <trace target="vvz2xRVABsJF" traceType=":Proteus-dependency"/>
       <trace target="7gmxntVGX7Jd" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: estado del vehículo.
-- Pendiente: capacidad en sacos o carga actual.
-- Modelo: Vehicle]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="jo7gd7n2dphw"/>

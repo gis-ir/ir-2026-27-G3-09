@@ -23,7 +23,7 @@
       <trace target="SdaHSzzpXEs6" traceType=":Proteus-dependency"/>
       <trace target="HMBQn3Dhagok" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[El historial se deriva de las incidencias del arcón (Issue)]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

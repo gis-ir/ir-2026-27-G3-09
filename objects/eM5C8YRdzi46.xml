@@ -26,9 +26,7 @@
       <trace target="HbCNDfTdE25T" traceType=":Proteus-dependency"/>
       <trace target="U7gR46JRQWTD" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: dónde se guarda la tarifa sin arcón.
-
-Pendiente: descuento por volumen.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

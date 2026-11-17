@@ -24,9 +24,7 @@
       <trace target="Gk8YUwBNV9Uo" traceType=":Proteus-dependency"/>
       <trace target="323ULkDZhydg" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: REGN-013 
-
-Pendiente del equipo: si total_cash y total_card son lo contado o lo calculado.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

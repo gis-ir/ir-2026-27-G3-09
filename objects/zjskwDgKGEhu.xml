@@ -20,8 +20,7 @@
       <trace target="9Dmh6YqRrQQ4" traceType=":Proteus-dependency"/>
       <trace target="sxMPQ5tDEyTH" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: si bag_quantity es la cantidad producida o la existente.
-- Modelo: IceBatch]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="ocHWYBafaXfF"/>

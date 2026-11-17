@@ -21,9 +21,7 @@
       <trace target="Hk2ev3y2DZrf" traceType=":Proteus-dependency"/>
       <trace target="YL9Uxq3QcmDT" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: si basta un ticket digital.
-
-El ticket no se almacena (el modelo no tiene Ticket), se imprime con los datos del pedido.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

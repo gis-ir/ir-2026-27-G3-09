@@ -22,7 +22,7 @@
       <trace target="YL9Uxq3QcmDT" traceType=":Proteus-dependency"/>
       <trace target="SdaHSzzpXEs6" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: qué se mide y umbral.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

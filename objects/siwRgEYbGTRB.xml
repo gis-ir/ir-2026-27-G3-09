@@ -24,7 +24,7 @@
       <trace target="SdaHSzzpXEs6" traceType=":Proteus-dependency"/>
       <trace target="WU3XjnbLvnQN" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: condiciones de la cesión.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

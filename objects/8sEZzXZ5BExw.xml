@@ -24,9 +24,7 @@
       <trace target="k8Hqi5duTVqF" traceType=":Proteus-dependency"/>
       <trace target="zjskwDgKGEhu" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: initial_stock no distingue tipos de hielo, el picado y el de cóctel se cuentan también en sacos?
-
-Pendiente: el modelo no relaciona la carga con lotes concretos]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

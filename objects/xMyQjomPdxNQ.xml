@@ -20,7 +20,7 @@
       <trace target="ptoz5CebMGRy" traceType=":Proteus-dependency"/>
       <trace target="qEGpstYWC2tk" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: capacidad en sacos o carga actual en Vehicle]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

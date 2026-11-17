@@ -22,7 +22,7 @@
       <trace target="YL9Uxq3QcmDT" traceType=":Proteus-dependency"/>
       <trace target="xZusiAN53eQa" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Modelo: RouteStop.is_delivered y Order.is_urgent.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

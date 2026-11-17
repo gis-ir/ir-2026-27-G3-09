@@ -21,8 +21,7 @@
       <trace target="ENM2LJkZrqV2" traceType=":Proteus-dependency"/>
       <trace target="s9frB4To9fLx" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Modelo: DeliveryDriver realiza DigitalCashClosing; AdminManager lo valida.
-- Pendiente: fecha de validación y estado del cierre ]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

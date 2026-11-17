@@ -23,10 +23,7 @@
       <trace target="YfweBCUBhrEF" traceType=":Proteus-dependency"/>
       <trace target="axH2DdSZ3X9o" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Un cliente puede tener varios arcones
-- El historial de cesiones de un arcón son sus contratos.
-- Modelo: AssignmentContract
-- Trazas: RF-03.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="mfxMRGd2RSTM"/>

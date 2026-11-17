@@ -24,10 +24,7 @@
       <trace target="CePMLH6rbtE3" traceType=":Proteus-dependency"/>
       <trace target="YfweBCUBhrEF" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: NIF 
-- Pendiente: franja o prioridad de atención REGN-012
-- Pendiente: un atributo customer_type para distinguir tipos de cliente en tarifas, descuentos, etc.. REGN-004 y REGN-009 dependen de él.
-- Modelo: Customer]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="MUbfbnHXxbxR"/>

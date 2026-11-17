@@ -22,7 +22,7 @@
       <trace target="HMBQn3Dhagok" traceType=":Proteus-dependency"/>
       <trace target="96sPqWsrEkXZ" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: tiempo estimado de asistencia (CU-004, paso 8) este requisito no lo recoge.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

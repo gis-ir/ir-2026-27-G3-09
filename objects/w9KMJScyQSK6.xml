@@ -22,7 +22,7 @@
       <trace target="Rh6MkMX8XkGM" traceType=":Proteus-dependency"/>
       <trace target="HMBQn3Dhagok" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[La registra el gestor (CU-006, paso 1).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

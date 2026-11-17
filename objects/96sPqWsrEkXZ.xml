@@ -20,7 +20,7 @@
       <trace target="vvz2xRVABsJF" traceType=":Proteus-dependency"/>
       <trace target="0F7jouu4aIle" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Modelo: clase asociación sobre DeliveryDriver y Vehicle.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="V6UCLTKp2RvK"/>

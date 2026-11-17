@@ -25,8 +25,7 @@
       <trace target="67xzDoXEHVMj" traceType=":Proteus-dependency"/>
       <trace target="9braLyqDhNgG" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: permisos de cada perfil (1.2.2, SUBS-001).
-- Modelo: User, DeliveryDriver, MaintenanceTech, AdminManager]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="vkMhk2jKDSvT"/>
