@@ -6,10 +6,11 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[- Subsistema de Usuarios y Accesos (SUBS-001): Controla la autenticación, roles y permisos de los perfiles (repartidores, gestores y técnicos).
+    <markdownProperty name="text" category="detail"><![CDATA[- Subsistema de Usuarios y Accesos (SUBS-001): Controla la autenticación, roles y permisos de los perfiles (repartidores, gestores, técnicos y clientes).
 - Subsistema Logístico y de Rutas (SUBS-002): Procesa el posicionamiento GPS de la flota, evalúa la viabilidad de los pedidos urgentes según la carga remanente de los camiones, recalcula rutas y gestiona las alertas de averías de vehículos. 
 - Subsistema Económico (SUBS-003): Automatiza el cálculo de arqueos de caja, cruza el stock inicial con las ventas registradas e identifica discrepancias o motivos de descuadre. 
-- Subsistema de Arcones (SUBS-004): Vincula los números de serie de los congeladores a las fichas de los clientes, aplica de forma automatizada las tarifas asociadas a la cesión y detecta patrones de bajo consumo o inactividad. ]]></markdownProperty>
+- Subsistema de Arcones (SUBS-004): Vincula los números de serie de los congeladores a las fichas de los clientes, aplica de forma automatizada las tarifas asociadas a la cesión y detecta patrones de bajo consumo o inactividad. 
+- Subsistema de Pedidos (SUBS-005): Recibe y registra los pedidos procedentes del portal de clientes y de la oficina, marca su urgencia y los pasa al subsistema logístico para su asignación a rutas. Mantiene el estado de cada pedido para que el cliente y el gestor puedan consultarlo.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

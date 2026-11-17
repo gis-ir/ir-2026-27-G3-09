@@ -6,7 +6,7 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[La arquitectura lógica del sistema de gestión y optimización logística para Hielos Mairena se ha diseñado bajo un patrón de Arquitectura en Capas de tipo Cliente-Servidor. Este enfoque permite desacoplar la lógica de presentación utilizada por los diferentes perfiles de usuario (repartidores en movilidad y personal administrativo en oficina) de los servicios centrales de procesamiento, negocio y persistencia de datos.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[La arquitectura lógica del sistema de gestión y optimización logística para Hielos Mairena se ha diseñado bajo un patrón de Arquitectura en Capas de tipo Cliente-Servidor. Este enfoque permite desacoplar la lógica de presentación utilizada por los diferentes perfiles de usuario (repartidores en movilidad, personal administrativo en oficina y clientes a través del portal de pedidos) de los servicios centrales de procesamiento, negocio y persistencia de datos.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
