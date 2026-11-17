@@ -20,8 +20,7 @@
       <trace target="sTWVBQG47aci" traceType=":Proteus-dependency"/>
       <trace target="sxMPQ5tDEyTH" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: diferencias entre unidades de bolsa/saco
-- Modelo: IceType]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="BK8GdNTUTJ7A"/>

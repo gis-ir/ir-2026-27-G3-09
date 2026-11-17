@@ -20,7 +20,7 @@
       <trace target="REWCDP6SbxDM" traceType=":Proteus-dependency"/>
       <trace target="KqEDrHrc9zC6" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Modelo: Issue (con Vehicle 0..1); la repara un MaintenanceTech.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

@@ -29,10 +29,7 @@
       <trace target="eMZbirTkCweh" traceType=":Proteus-dependency"/>
       <trace target="Hk2ev3y2DZrf" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: quién registra el pedido.
-- Pendiente: el modelo no distingue los sacos pedidos de los entregados.
-- El albarán es un pedido con forma de pago cuenta abierta.
-- Modelo: Order, OrderLine]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="us2Kg4RjUBLj"/>

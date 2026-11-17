@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>027</number>
+      <number>020</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Coordinar sustitución de arcón y cerrar incidencia]]></stringProperty>
@@ -23,7 +23,7 @@
       <trace target="SdaHSzzpXEs6" traceType=":Proteus-dependency"/>
       <trace target="HMBQn3Dhagok" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[El historial se deriva de las incidencias del arcón (Issue)]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

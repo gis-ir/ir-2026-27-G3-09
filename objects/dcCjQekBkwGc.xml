@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>015</number>
+      <number>012</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Bloquear jornada y validar liquidación]]></stringProperty>
@@ -22,9 +22,7 @@
       <trace target="Gk8YUwBNV9Uo" traceType=":Proteus-dependency"/>
       <trace target="EYdETMVsQUsP" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: fecha de validación; qué ocurre si no la valida o la rechaza.
-
-Pendiente: el estado del cierre.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>005</number>
+      <number>004</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Calcular importe del pedido]]></stringProperty>
@@ -26,9 +26,7 @@
       <trace target="HbCNDfTdE25T" traceType=":Proteus-dependency"/>
       <trace target="U7gR46JRQWTD" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: dónde se guarda la tarifa sin arcón.
-
-Pendiente: descuento por volumen.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

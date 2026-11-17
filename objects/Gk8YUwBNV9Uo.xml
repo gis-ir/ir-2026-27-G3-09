@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQI-]]></prefix>
-      <number>013</number>
+      <number>010</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Información sobre cierres diarios]]></stringProperty>
@@ -23,9 +23,7 @@
       <trace target="Qx93ch76BDQU" traceType=":Proteus-dependency"/>
       <trace target="sTWVBQG47aci" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: estado del cierre
-- Modelo: DigitalCashClosing
-- Trazas: RF-02.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="wqLVsVJKAcwE"/>

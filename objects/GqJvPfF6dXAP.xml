@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>019</number>
+      <number>014</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Solicitar vehículo de sustitución e informar al repartidor]]></stringProperty>
@@ -22,7 +22,7 @@
       <trace target="HMBQn3Dhagok" traceType=":Proteus-dependency"/>
       <trace target="96sPqWsrEkXZ" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: tiempo estimado de asistencia (CU-004, paso 8) este requisito no lo recoge.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

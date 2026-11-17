@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQI-]]></prefix>
-      <number>021</number>
+      <number>014</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Información sobre facturas]]></stringProperty>
@@ -21,8 +21,7 @@
       <trace target="EAngZn2HjzZ2" traceType=":Proteus-dependency"/>
       <trace target="HhSWx2f68Hya" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Pendiente: el modelo no tiene entidad Factura
-- Pendiente: número de factura y datos fiscales.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children>
     <child id="Baa3JesT3bzL"/>

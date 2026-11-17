@@ -20,8 +20,7 @@
       <trace target="ZiUqZ6g72rR4" traceType=":Proteus-dependency"/>
       <trace target="xw24fKH5G97r" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Modelo: Freezer.status.
-- Pendiente: revisar si status es un enumerado]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

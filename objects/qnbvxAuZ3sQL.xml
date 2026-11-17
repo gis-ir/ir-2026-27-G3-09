@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>012</number>
+      <number>010</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Calcular cierre diario del repartidor]]></stringProperty>
@@ -24,9 +24,7 @@
       <trace target="Gk8YUwBNV9Uo" traceType=":Proteus-dependency"/>
       <trace target="323ULkDZhydg" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: REGN-018 
-
-Pendiente del equipo: si total_cash y total_card son lo contado o lo calculado.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

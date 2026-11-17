@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>006</number>
+      <number>005</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Emitir ticket de entrega]]></stringProperty>
@@ -21,9 +21,7 @@
       <trace target="Hk2ev3y2DZrf" traceType=":Proteus-dependency"/>
       <trace target="YL9Uxq3QcmDT" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Pendiente: si basta un ticket digital.
-
-El ticket no se almacena (el modelo no tiene Ticket), se imprime con los datos del pedido.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

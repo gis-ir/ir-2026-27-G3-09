@@ -21,7 +21,7 @@
       <trace target="LfWA2wKg466e" traceType=":Proteus-dependency"/>
       <trace target="xw24fKH5G97r" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[- Modelo: Freezer.serial_number; AssignmentContract.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>

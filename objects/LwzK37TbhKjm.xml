@@ -3,7 +3,7 @@
   <properties>
     <codeProperty name=":Proteus-code" category="general" inmutable="true">
       <prefix><![CDATA[RQF-]]></prefix>
-      <number>010</number>
+      <number>008</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Informar cierre de orden urgente]]></stringProperty>
@@ -22,7 +22,7 @@
       <trace target="YL9Uxq3QcmDT" traceType=":Proteus-dependency"/>
       <trace target="xZusiAN53eQa" traceType=":Proteus-dependency"/>
     </traceProperty>
-    <markdownProperty name="comments" category="comments"><![CDATA[Modelo: RouteStop.is_delivered y Order.is_urgent.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
 </object>
