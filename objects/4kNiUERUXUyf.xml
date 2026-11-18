@@ -6,6 +6,8 @@
   </properties>
   <children>
     <child id="s5LcYSiPmrab"/>
+    <child id="cu001-diagrama-texto"/>
+    <child id="cu001-diagrama-figura"/>
     <child id="3gFNodWABkGH"/>
     <child id="hb8r4NGpwk7r"/>
     <child id="QXyzEmY3a9xX"/>
