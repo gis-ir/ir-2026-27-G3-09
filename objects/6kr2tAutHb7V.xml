@@ -17,7 +17,11 @@
 -  Seguimiento de los equipos cedidos.]]></markdownProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">medium</enumProperty>
     <enumProperty name="priority" category="detail" tooltip="priority" choices="tbd high medium low">medium</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="LfWA2wKg466e" traceType=":Proteus-dependency"/>
+      <trace target="EC4EGFuw8g8R" traceType=":Proteus-dependency"/>
+      <trace target="ZiUqZ6g72rR4" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

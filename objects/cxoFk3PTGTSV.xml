@@ -20,6 +20,8 @@
       <trace target="ptoz5CebMGRy" traceType=":Proteus-dependency"/>
       <trace target="qEGpstYWC2tk" traceType=":Proteus-dependency"/>
       <trace target="hsGenQoMTF3j" traceType=":Proteus-dependency"/>
+      <trace target="objn006-portal-clientes" traceType=":Proteus-dependency"/>
+      <trace target="p7PortalWeb1" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

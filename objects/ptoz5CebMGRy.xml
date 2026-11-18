@@ -14,7 +14,10 @@
     <markdownProperty name="description" category="detail"><![CDATA[Convertir la gestión de rutas y pedidos urgentes en un proceso dinámico y coordinado, capaz de responder con rapidez a imprevistos como roturas de stock en locales, averías mecánicas o picos de demanda. El sistema reasignará entregas según la ubicación de los vehículos, su capacidad restante y la prioridad de cada pedido, mejorando la comunicación entre oficina, clientes y repartidores y evitando retrasos que afecten a la fidelidad de hostelería y pescaderías.]]></markdownProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <enumProperty name="priority" category="detail" tooltip="priority" choices="tbd high medium low">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="qEGpstYWC2tk" traceType=":Proteus-dependency"/>
+      <trace target="p7PortalWeb1" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
