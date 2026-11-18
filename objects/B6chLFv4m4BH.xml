@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="B6chLFv4m4BH" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="B6chLFv4m4BH" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 1: Seleccionar cliente]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El Gestor abre en el panel web la ficha del Cliente y elige iniciar la cesión de un arcón.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El Gestor abre en el panel web la ficha del Cliente y elige iniciar la cesión de un arcón.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="E7WY3KpwR55i" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[abre en el panel web la ficha del Cliente y elige iniciar la cesión de un arcón]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

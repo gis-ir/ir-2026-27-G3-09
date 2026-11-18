@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="RXDF3dUih96v" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="RXDF3dUih96v" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Carga de mercancía]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El Repartidor se dirige a las cámaras del almacén y realiza la carga física de los palés y sacos previstos en el vehículo y confirma la cantidad cargada.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="hAciZ5k6mbMd" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[se dirige a las cámaras del almacén, realiza la carga física en el vehículo de los palés y sacos previstos y confirma la cantidad cargada]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
