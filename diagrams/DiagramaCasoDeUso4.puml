@@ -1,0 +1,81 @@
+@startuml
+!theme plain
+skinparam backgroundColor #F7F9FC
+skinparam shadowing true
+skinparam defaultFontName "DejaVu Sans"
+skinparam defaultFontSize 13
+skinparam ArrowColor #495057
+skinparam ArrowFontColor #343A40
+skinparam nodesep 25
+skinparam ranksep 25
+skinparam padding 5
+
+skinparam actor {
+  BackgroundColor #FFE3E3
+  BorderColor #C92A2A
+  BorderThickness 1.5
+}
+skinparam usecase {
+  BackgroundColor #E7F5FF
+  BorderColor #1971C2
+  BorderThickness 1.5
+  RoundCorner 18
+}
+skinparam note {
+  BackgroundColor #FFF9DB
+  BorderColor #E67700
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #868E96
+  BorderThickness 1.2
+  RoundCorner 8
+}
+
+left to right direction
+
+actor "\nRepartidor" as REP
+actor "\nGestor de Admin.\ny Tráfico" as GAT
+actor "\nServicio GPS" as GPS #D3F9D8
+actor "\nEquipo de Soporte\ny Mantenimiento" as SUP
+
+rectangle "Sistema de Gestión de Flota e Incidencias" {
+
+  usecase "①–③ Notificar avería\nde vehículo en ruta\n(mecánica / frío)" as UC_NOTIF
+  usecase "④–⑧ Gestionar avería\nde vehículo en ruta\n[CU principal]" as UC_MAIN
+  usecase "④ Obtener coordenadas GPS\ny registrar incidencia" as UC_GPS
+  usecase "⑤ Alertar al Equipo\nde Soporte en tiempo real" as UC_ALERT
+  usecase "⑥ Evaluar reparación\nin situ" as UC_EVAL
+  usecase "⑦ Solicitar camión\nde sustitución" as UC_SUST
+  usecase "⑧ Informar resolución\ny tiempo de asistencia" as UC_INF
+}
+
+' --- Asociaciones actor <-> CU ---
+REP --> UC_NOTIF : ① selecciona incidencia\n②③ indica tipo y confirma
+REP <-- UC_INF   : ⑧ recibe resolución\ny tiempo estimado
+
+UC_GPS <-- GPS   : ④ provee coordenadas\ndel vehículo
+UC_ALERT --> SUP : ⑤ envía ubicación\ny tipo de avería
+UC_EVAL <-- SUP  : ⑥ registra si es reparable\no requiere sustitución
+
+UC_SUST -down-> GAT : ⑦ notifica para asignar\nvehículo y repartidor\nde trasvase
+
+' --- Includes: subflujos obligatorios / reutilizables ---
+UC_NOTIF ..> UC_MAIN : <<include>>\n(dispara el CU)
+UC_MAIN ..> UC_GPS   : <<include>>\n(paso 4)
+UC_MAIN ..> UC_ALERT : <<include>>\n(paso 5)
+UC_MAIN ..> UC_EVAL  : <<include>>\n(paso 6)
+UC_MAIN ..> UC_INF   : <<include>>\n(paso 8)
+
+' --- Extends: escenario alternativo ---
+UC_SUST ..> UC_MAIN : <<extend>>\n(paso 7: no reparable in situ)
+
+legend right
+  |<#FFE3E3>| Actor |
+  |<#E7F5FF>| Caso de uso |
+  |<#D3F9D8>| Sistema externo |
+  | <<include>> | Subflujo obligatorio / reutilizable |
+  | <<extend>>  | Escenario alternativo |
+endlegend
+
+@enduml
