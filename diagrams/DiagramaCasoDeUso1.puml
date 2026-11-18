@@ -1,0 +1,73 @@
+@startuml
+!theme plain
+skinparam backgroundColor #F7F9FC
+skinparam shadowing true
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 13
+skinparam ArrowColor #495057
+skinparam ArrowFontColor #343A40
+skinparam nodesep 25
+skinparam ranksep 25
+skinparam padding 5
+
+skinparam actor {
+  BackgroundColor #FFE3E3
+  BorderColor #C92A2A
+  BorderThickness 1.5
+}
+skinparam usecase {
+  BackgroundColor #E7F5FF
+  BorderColor #1971C2
+  BorderThickness 1.5
+  RoundCorner 18
+}
+skinparam note {
+  BackgroundColor #FFF9DB
+  BorderColor #E67700
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #868E96
+  BorderThickness 1.2
+  RoundCorner 8
+}
+
+left to right direction
+
+actor "\nGestor de Admin.\ny Tráfico" as Gestor
+actor "\nRepartidor" as Repartidor
+actor "\nCliente Externo" as Cliente
+actor "\nImpresora Bluetooth\n(Sistema externo)" as Impresora #D3F9D8
+
+rectangle "Sistema de Planificación y Distribución Habitual" {
+  usecase "① Publicar planificación\ndiaria de rutas" as UC_PLAN
+  usecase "② Gestionar carga y\nejecución de ruta habitual\n[CU principal]" as UC_RUTA
+  usecase "③ Confirmar carga y\nactualizar inventario de salida" as UC_CARGA
+  usecase "④ Registrar entrega\ny forma de pago" as UC_ENTREGA
+  usecase "⑤ Emitir e imprimir\nticket de entrega" as UC_TICKET
+  usecase "⚠ Desviar ruta por\nurgencia o incidencia" as UC_DESVIO
+  usecase "⑥ Finalizar ruta y\nregistrar retorno a sede" as UC_FIN
+
+  UC_PLAN ..> UC_RUTA : <<include>>\n(dispara el CU)
+  UC_RUTA ..> UC_CARGA : <<include>>\n(paso 2)
+  UC_RUTA ..> UC_ENTREGA : <<include>>\n(paso 4)
+  UC_ENTREGA ..> UC_TICKET : <<include>>\n(paso 5)
+  UC_DESVIO ..> UC_RUTA : <<extend>>\n(imprevisto en ruta)
+  UC_RUTA ..> UC_FIN : <<include>>\n(paso 7)
+}
+
+Gestor --> UC_PLAN : ① valida y publica\nhoja de ruta
+Repartidor --> UC_RUTA : ② consulta ruta\n③ carga camión\n⑦ retorna a sede
+Repartidor --> UC_ENTREGA : ④ descarga hielo\ny registra cobro
+Cliente --> UC_ENTREGA : ④ recibe mercancía,\nfirma y paga
+Impresora --> UC_TICKET : ⑤ imprime doble\nticket físico (ESC/POS)
+
+legend right
+  |<#FFE3E3>| Actor |
+  |<#E7F5FF>| Caso de uso |
+  |<#D3F9D8>| Sistema / dispositivo externo |
+  | <<include>> | Subflujo obligatorio / reutilizable |
+  | <<extend>>  | Escenario alternativo |
+endlegend
+
+@enduml
