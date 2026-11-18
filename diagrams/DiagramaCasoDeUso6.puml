@@ -1,0 +1,78 @@
+@startuml
+!theme plain
+skinparam backgroundColor #F7F9FC
+skinparam shadowing true
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 13
+skinparam ArrowColor #495057
+skinparam ArrowFontColor #343A40
+skinparam nodesep 25
+skinparam ranksep 25
+skinparam padding 5
+
+skinparam actor {
+  BackgroundColor #FFE3E3
+  BorderColor #C92A2A
+  BorderThickness 1.5
+}
+skinparam usecase {
+  BackgroundColor #E7F5FF
+  BorderColor #1971C2
+  BorderThickness 1.5
+  RoundCorner 18
+}
+skinparam note {
+  BackgroundColor #FFF9DB
+  BorderColor #E67700
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #868E96
+  BorderThickness 1.2
+  RoundCorner 8
+}
+
+left to right direction
+
+actor "\nCliente Externo" as CLI
+actor "\nGestor de Admin.\ny Tráfico" as GAT
+actor "\nTécnico Frigorista\n(Equipo de Soporte)" as TEC
+actor "\nRepartidor\n(Apoyo logístico)" as REP
+
+rectangle "Sistema de Gestión y Mantenimiento de Arcones" {
+
+  usecase "① Notificar avería\nde arcón cedido" as UC_NOTIF
+  usecase "② Gestionar avería de\narcón cedido\n[CU principal]" as UC_MAIN
+  usecase "③ Abrir incidencia y\nnotificar al técnico" as UC_ABRIR
+  usecase "④ Registrar diagnóstico\ntécnico del arcón" as UC_DIAG
+  usecase "⑤ Reparar arcón\nin situ en el local" as UC_REP
+  usecase "⚠ Sustituir arcón\ninservible" as UC_SUST
+  usecase "⑥ Vincular arcón de\nsustitución al cliente" as UC_VINC
+  usecase "⑦ Actualizar estado\ny cerrar incidencia" as UC_CIERRE
+}
+
+' --- Asociaciones actor ↔ CU ---
+CLI --> UC_NOTIF
+GAT --> UC_MAIN : ① registra aviso\n⑤ coordina sustitución\n⑦ cierra orden en panel web
+TEC --> UC_DIAG : ③ recibe notificación\n④ inspecciona y diagnostica\n⑤ efectúa reparación in situ
+REP --> UC_SUST : ⑤ entrega arcón nuevo\ny retira equipo averiado
+
+' --- Includes: subflujos obligatorios / reutilizables ---
+UC_NOTIF ..> UC_MAIN   : <<include>>\n(dispara el CU)
+UC_MAIN  ..> UC_ABRIR  : <<include>>\n(pasos 2 y 3)
+UC_MAIN  ..> UC_DIAG   : <<include>>\n(paso 4)
+UC_MAIN  ..> UC_CIERRE : <<include>>\n(paso 7)
+
+' --- Extends: escenarios según diagnóstico técnico ---
+UC_REP   ..> UC_MAIN   : <<extend>>\n(paso 4: reparable in situ)
+UC_SUST  ..> UC_MAIN   : <<extend>>\n(paso 4: avería grave / sustitución)
+UC_VINC  ..> UC_SUST   : <<include>>\n(paso 6: mantiene tarifa)
+
+legend right
+  |<#FFE3E3>| Actor |
+  |<#E7F5FF>| Caso de uso |
+  | <<include>> | Subflujo obligatorio / reutilizable |
+  | <<extend>>  | Escenario alternativo |
+endlegend
+
+@enduml
