@@ -6,7 +6,7 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[La tercera matriz relaciona los casos de uso con los procesos de negocio To-Be que apoyan y con los subsistemas en los que se realizan. Permite comprobar que los procesos previstos cuentan con soporte funcional e identificar casos de uso o procesos que carecen de una vinculación explícita.]]></markdownProperty>
+    <markdownProperty name="text" category="detail"><![CDATA[La cuarta matriz relaciona los casos de uso con los procesos de negocio To-Be que soportan. Permite comprobar que los procesos previstos cuentan con soporte funcional e identificar casos de uso o procesos que carecen de una vinculación explícita.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
