@@ -20,6 +20,12 @@
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="ENM2LJkZrqV2" traceType=":Proteus-dependency"/>
+      <trace target="JcYsoLCtFj3B" traceType=":Proteus-dependency"/>
+      <trace target="m5uxTYyfhoML" traceType=":Proteus-dependency"/>
+      <trace target="9braLyqDhNgG" traceType=":Proteus-dependency"/>
+      <trace target="Qx93ch76BDQU" traceType=":Proteus-dependency"/>
+      <trace target="EAngZn2HjzZ2" traceType=":Proteus-dependency"/>
+      <trace target="HhSWx2f68Hya" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

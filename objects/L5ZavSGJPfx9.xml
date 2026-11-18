@@ -18,6 +18,7 @@
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement general-requirement" traceType=":Proteus-dependency">
       <trace target="LfWA2wKg466e" traceType=":Proteus-dependency"/>
+      <trace target="ZiUqZ6g72rR4" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
