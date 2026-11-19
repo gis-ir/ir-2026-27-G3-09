@@ -4,5 +4,9 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Diagramas de navegación del sistema]]></stringProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="navAppRep001"/>
+    <child id="navPanWeb002"/>
+    <child id="navPorCli003"/>
+  </children>
 </object>
