@@ -1,0 +1,54 @@
+@startuml CU-005
+left to right direction
+skinparam shadowing true
+skinparam backgroundColor #F8FAFD
+skinparam nodesep 40
+skinparam ranksep 70
+skinparam actor {
+  BackgroundColor #FFE0E0
+  BorderColor #C62828
+}
+skinparam usecase {
+  BackgroundColor #E3F2FD
+  BorderColor #1565C0
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #555555
+  RoundCorner 8
+}
+skinparam ArrowColor #444444
+
+actor "Gestor de Admin.\ny Tráfico" as GESTOR
+
+rectangle "Sistema de Gestión de Cesión de Arcones" {
+  usecase "① Iniciar cesión de arcón\ndesde la ficha del cliente" as UC1
+  usecase "② Gestionar cesión de\narcón congelador a cliente\n[CU principal]" as UC2
+  usecase "③ Comprobar disponibilidad\ny mostrar tarifa aplicable" as UC3
+  usecase "④ Vincular arcón al cliente y\ngenerar orden de transporte\ne instalación" as UC4
+  usecase "⑥ Confirmar instalación\ndel arcón" as UC6
+  usecase "⑦ Actualizar estado a cedido\ny notificar al Gestor" as UC7
+}
+
+actor "Repartidor" as REP
+actor "Cliente Externo" as CLI
+
+GESTOR --> UC1 : ① abre la ficha\ne inicia la cesión
+GESTOR --> UC2 : ② introduce nº de serie\n④ confirma la cesión
+GESTOR <-- UC7 : ⑦ recibe aviso de\ninstalación finalizada
+
+UC1 ..> UC2 : «include»\n(dispara el CU)
+UC2 ..> UC3 : «include»\n(paso 3)
+UC2 ..> UC4 : «include»\n(paso 4)
+UC2 ..> UC6 : «include»\n(pasos 5 y 6)
+UC2 ..> UC7 : «include»\n(paso 7)
+
+UC6 <-- REP : ⑤ entrega e instala el arcón\n⑥ confirma en la app
+UC6 <-- CLI : ⑤ recibe el arcón\nen su establecimiento
+
+legend bottom right
+  |<#FFE0E0>     | Actor |
+  |<#E3F2FD>     | Caso de uso |
+  | «include» | Subflujo obligatorio / reutilizable |
+endlegend
+@enduml
