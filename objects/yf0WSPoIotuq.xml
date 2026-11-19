@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="yf0WSPoIotuq" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="yf0WSPoIotuq" classes="use-case-step use-case-action system-action system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 4: Registrar incidencia con GPS]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El sistema obtiene las coordenadas GPS del vehículo y registra la incidencia asociada al camión y a la ruta en curso.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El sistema obtiene las coordenadas GPS del vehículo y registra la incidencia asociada al camión y a la ruta en curso.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="description" category="general" tooltip="system-action-description"><![CDATA[obtiene las coordenadas GPS del vehículo y registra la incidencia asociada al camión y a la ruta en curso]]></markdownProperty>
+    <stringProperty name="performance" category="general" tooltip="performance"><![CDATA[]]></stringProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

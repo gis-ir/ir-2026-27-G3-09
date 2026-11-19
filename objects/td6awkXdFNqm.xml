@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="td6awkXdFNqm" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="td6awkXdFNqm" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 5: Instalar arcón en el local]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El Repartidor entrega e instala el arcón en el establecimiento del Cliente.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El Repartidor entrega e instala el arcón en el establecimiento del Cliente.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="hAciZ5k6mbMd" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[entrega e instala el arcón en el establecimiento del Cliente]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

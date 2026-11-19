@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="fszsgZ8Wtzi4" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="fszsgZ8Wtzi4" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Entrega y cobro]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[En cada parada, el Repartidor entrega la mercancía solicitada al Cliente, registra en la aplicación móvil la modalidad de cobro correspondiente (efectivo, tarjeta o albarán para cuenta mensual) e imprime el ticket mediante la impresora portátil.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="hAciZ5k6mbMd" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[entrega en cada parada la mercancía solicitada al Cliente, registra en la aplicación móvil la modalidad de cobro correspondiente (efectivo, tarjeta o albarán para cuenta mensual) e imprime el ticket mediante la impresora portátil]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

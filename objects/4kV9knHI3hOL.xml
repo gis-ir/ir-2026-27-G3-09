@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="4kV9knHI3hOL" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="4kV9knHI3hOL" classes="use-case-step use-case-action system-action system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 3: Notificar al técnico]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El sistema notifica la incidencia al técnico de refrigeración del Equipo de Soporte y Mantenimiento, indicando la dirección del local y el modelo del arcón.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El sistema notifica la incidencia al técnico de refrigeración del Equipo de Soporte y Mantenimiento, indicando la dirección del local y el modelo del arcón.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="description" category="general" tooltip="system-action-description"><![CDATA[notifica la incidencia al técnico de refrigeración del Equipo de Soporte y Mantenimiento, indicando la dirección del local y el modelo del arcón]]></markdownProperty>
+    <stringProperty name="performance" category="general" tooltip="performance"><![CDATA[]]></stringProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

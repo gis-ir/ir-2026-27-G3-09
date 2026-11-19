@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="duY4klPR8GEb" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+<object id="duY4klPR8GEb" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso 6: Transmitir liquidación digital]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El Repartidor confirma el resumen de liquidación y el sistema bloquea la jornada en el terminal móvil, enviando instantáneamente el informe digital a la oficina central.]]></markdownProperty><markdownProperty name="action" category="general"><![CDATA[El Repartidor confirma el resumen de liquidación y el sistema bloquea la jornada en el terminal móvil, enviando instantáneamente el informe digital a la oficina central.]]></markdownProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="hAciZ5k6mbMd" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[confirma el resumen de liquidación, tras lo cual el sistema bloquea la jornada en el terminal móvil y envía instantáneamente el informe digital a la oficina central]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
