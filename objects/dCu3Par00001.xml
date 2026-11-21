@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="dCu3Par00001" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-21</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El diagrama modela cómo el Repartidor realiza al final de su jornada el arqueo y cierre de caja digital desde su terminal móvil: el sistema calcula el balance de cobros (efectivo, tarjeta y cuenta abierta) y la mercancía sobrante teórica, compara estas cifras con el recuento físico, solicita la justificación de los descuadres si los hay y transmite la liquidación a la oficina central para su validación.
+
+Actores: Repartidor (solicita el cierre, introduce el recuento físico y justifica los descuadres, ①, ③ y ⑤) y Gestor de Administración y Tráfico (revisa la liquidación en el panel web y valida el cierre, ⑦).]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency">
+      <trace target="Qjc6Fn9Ou9uC" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
