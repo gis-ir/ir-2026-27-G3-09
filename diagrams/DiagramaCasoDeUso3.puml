@@ -1,0 +1,77 @@
+@startuml
+!theme plain
+skinparam backgroundColor #F7F9FC
+skinparam shadowing true
+skinparam defaultFontName "DejaVu Sans"
+skinparam defaultFontSize 13
+skinparam ArrowColor #495057
+skinparam ArrowFontColor #343A40
+skinparam nodesep 25
+skinparam ranksep 25
+skinparam padding 5
+
+skinparam actor {
+  BackgroundColor #FFE3E3
+  BorderColor #C92A2A
+  BorderThickness 1.5
+}
+skinparam usecase {
+  BackgroundColor #E7F5FF
+  BorderColor #1971C2
+  BorderThickness 1.5
+  RoundCorner 18
+}
+skinparam note {
+  BackgroundColor #FFF9DB
+  BorderColor #E67700
+}
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #868E96
+  BorderThickness 1.2
+  RoundCorner 8
+}
+
+left to right direction
+
+actor "\nRepartidor" as REP
+actor "\nGestor de Admin.\ny Tráfico" as GAT
+
+rectangle "Sistema de Gestión Económica" {
+
+  usecase "① Solicitar cierre\ndiario de jornada" as UC_SOL
+  usecase "②–⑦ Realizar arqueo y\ncierre de caja digital\n[CU principal]" as UC_MAIN
+  usecase "② Calcular balance\ny cruzar stock" as UC_CALC
+  usecase "③ Introducir efectivo\ny stock físico" as UC_REC
+  usecase "④ Comprobar concordancia\ny detectar descuadres" as UC_COMP
+  usecase "⑤ Justificar discrepancias\no mermas" as UC_JUST
+  usecase "⑥ Transmitir liquidación\ny bloquear jornada" as UC_TRANS
+  usecase "⑦ Validar arqueo en\noficina central" as UC_VAL
+}
+
+' --- Asociaciones actor <-> CU ---
+REP --> UC_SOL  : ① selecciona arqueo\ny cierre diario
+REP --> UC_REC  : ③ introduce efectivo\ny sacos sobrantes
+REP --> UC_JUST : ⑤ indica el motivo\ndel descuadre
+
+UC_VAL <-- GAT  : ⑦ revisa la liquidación\ny valida el cierre
+
+' --- Includes: subflujos obligatorios / reutilizables ---
+UC_SOL ..> UC_MAIN   : <<include>>\n(dispara el CU)
+UC_MAIN ..> UC_CALC  : <<include>>\n(paso 2)
+UC_MAIN ..> UC_REC   : <<include>>\n(paso 3)
+UC_MAIN ..> UC_COMP  : <<include>>\n(paso 4)
+UC_MAIN ..> UC_TRANS : <<include>>\n(paso 6)
+UC_MAIN ..> UC_VAL   : <<include>>\n(paso 7)
+
+' --- Extends: escenario alternativo ---
+UC_JUST ..> UC_MAIN : <<extend>>\n(paso 5: descuadre detectado)
+
+legend right
+  |<#FFE3E3>| Actor |
+  |<#E7F5FF>| Caso de uso |
+  | <<include>> | Subflujo obligatorio / reutilizable |
+  | <<extend>>  | Escenario alternativo |
+endlegend
+
+@enduml
