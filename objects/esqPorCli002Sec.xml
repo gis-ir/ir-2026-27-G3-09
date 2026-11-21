@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="esqPorCli002Sec" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Portal Web de Clientes — Mis Pedidos y Seguimiento en tiempo real]]></stringProperty>
+    <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="esqPorCli002"/>
+    <child id="esqPorCli002Txt"/>
+  </children>
+</object>
