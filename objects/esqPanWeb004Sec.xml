@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="esqPanWeb004Sec" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Panel Web (Oficina) — Incidencias, Camión de Sustitución y Avería de Arcón]]></stringProperty>
+    <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="esqPanWeb004"/>
+    <child id="esqPanWeb004Txt"/>
+  </children>
+</object>

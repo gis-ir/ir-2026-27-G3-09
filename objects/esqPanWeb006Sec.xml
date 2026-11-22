@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="esqPanWeb006Sec" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Panel Web (Oficina) — Arcones Cedidos y modal Registrar Cesión]]></stringProperty>
+    <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="esqPanWeb006"/>
+    <child id="esqPanWeb006Txt"/>
+  </children>
+</object>

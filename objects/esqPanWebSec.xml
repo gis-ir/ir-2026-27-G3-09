@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="esqPanWebSec" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Esquemas del Panel Web Centralizado (Oficina)]]></stringProperty>
+    <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="esqPanWeb001Sec"/>
+    <child id="esqPanWeb002Sec"/>
+    <child id="esqPanWeb003Sec"/>
+    <child id="esqPanWeb004Sec"/>
+    <child id="esqPanWeb005Sec"/>
+    <child id="esqPanWeb006Sec"/>
+    <child id="esqPanWeb007Sec"/>
+    <child id="esqPanWeb008Sec"/>
+  </children>
+</object>

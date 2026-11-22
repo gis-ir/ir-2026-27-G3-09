@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object id="esqPorCli002Txt" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Descripción — Portal Web de Clientes — Mis Pedidos y Seguimiento en tiempo real]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-21</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author" />
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source" />
+    <markdownProperty name="text" category="detail"><![CDATA[**Descripción:** Esquema en versión de escritorio y móvil de la sección **Mis Pedidos** (/pedidos) del Portal Web de Clientes (CU-007). Permite al **Cliente Externo (ACT-004)** consultar exclusivamente su historial propio de pedidos, agilizar reposiciones recurrentes con el botón **Repetir pedido** (que precarga los productos y cantidades en el carrito) y abrir el panel **Estado y Seguimiento** en tiempo real para visualizar el avance del reparto, la estimación de llegada del furgón y descargar el albarán en PDF una vez completada la entrega.
+
+&nbsp;]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency">
+      <trace target="cu007-web-order" traceType=":Proteus-dependency" />
+      <trace target="ufpxumA6EDTa" traceType=":Proteus-dependency" />
+    </traceProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children />
+</object>
